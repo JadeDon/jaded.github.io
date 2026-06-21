@@ -36,14 +36,14 @@ analytics:
 # STEP 4: Choose Your Pages (comment out any you don't need)
 # ============================================================
 nav_pages:
-  - name: About
-  - name: Publications
-  - name: Talks
-  - name: Research
-  - name: Projects
-  - name: Teaching
-  - name: Blogs
-  - name: Footprints 
+  - name: about
+  - name: publications
+  - name: talks
+  - name: research
+  - name: projects
+  - name: teaching
+  - name: blogs
+  - name: footprints 
 
 # ============================================================
 # Advanced Settings (you probably don't need to change these)
