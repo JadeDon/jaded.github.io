@@ -1,22 +1,22 @@
 # ============================================================
 # STEP 1: Your Identity (required)
 # ============================================================
-name: "Richard Feynman"
-title: "Professor of Physics"
-institution: "California Institute of Technology"
-email: richard@university.edu
+name: "Jade Jiaxuan Dang"
+title: "PhD student of Neuroscience"
+institution: "University of Missouri-Columbia"
+email: jdang@missouri.edu
 photo: headshot.jpg  # place your photo in images/
 
 # ============================================================
 # STEP 2: Your Links (optional -- delete any you don't use)
 # ============================================================
 links:
-  google_scholar: "https://scholar.google.com/citations?user=B7vSqZsAAAAJ"
-  github: "https://github.com/"
-  researchgate: "https://www.researchgate.net/"
-  orcid: ""
+  google_scholar: ""
+  github: "https://github.com/JadeDon"
+  researchgate: ""
+  orcid: "https://orcid.org/0009-0009-9644-985X"
   twitter: ""
-  linkedin: ""
+  linkedin: "https://www.linkedin.com/in/jadededaj/"
   cv: ""  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
 
 # ============================================================
@@ -24,7 +24,7 @@ links:
 # ============================================================
 accent_color: "#1a7a6d"      # theme color for links and buttons
 dark_mode: true              # show dark mode toggle in navbar
-description: "Academic webpage of Dr. Richard Feynman"
+description: "Academic webpage of Jade Jiaxuan Dang"
 baseurl: ""
 url: ""
 
@@ -36,14 +36,14 @@ analytics:
 # STEP 4: Choose Your Pages (comment out any you don't need)
 # ============================================================
 nav_pages:
-  - name: about
-  - name: publications
-  - name: talks
-  - name: research
-  - name: software
-  - name: team
-  - name: teaching
-  - name: blogs
+  - name: About
+  - name: Publications
+  - name: Talks
+  - name: Research
+  - name: Projects
+  - name: Teaching
+  - name: Blogs
+  - name: Footprints 
 
 # ============================================================
 # Advanced Settings (you probably don't need to change these)
@@ -76,8 +76,8 @@ kramdown:
 plugins: ["jekyll/scholar", "jekyll-sitemap"]
 
 scholar:
-  last_name: Doe
-  first_name: [John]
+  last_name: Dang
+  first_name: [Jade]
   style: citesty
   locale: en
   source: /assets/
