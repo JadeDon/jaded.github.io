@@ -77,7 +77,7 @@ plugins: ["jekyll/scholar", "jekyll-sitemap"]
 
 scholar:
   last_name: Dang
-  first_name: [J.]
+  first_name: J.
   style: citesty
   locale: en
   source: /assets/
