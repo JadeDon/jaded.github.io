@@ -25,4 +25,4 @@ Self-compassion. This is a concept I learned in English, thanks to Jude. On the 
 
 Last Friday I watched an Ali Abdaal video and used his scales for a self-assessment, deriving three keywords for my New Year’s resolutions: intentionality, efficiency, and collaboration. Any destiny, no matter how complex or long, is actually reflected in one single moment: the moment we completely wake up to who we truly are and who we want to become. Last year by the sea I thought, How wonderful, everyone here has their own fiery pit to burn in. Nothing remains of that beautiful humour, and I can no longer live cynically. I feel that the squandering of life cannot be alleviated by anything else. Ultimately, all we can rely on is our own creation: the lives we create, relationships we nurture, and works we build with our own hands. Learning to master my brain might bring me closer to peace, closer to happiness.
 
-- [Read Original](https://mp.weixin.qq.com/s/dNn2ivx4FRYqPJVb-Pwo-Q)
+[Read Original](https://mp.weixin.qq.com/s/dNn2ivx4FRYqPJVb-Pwo-Q)
