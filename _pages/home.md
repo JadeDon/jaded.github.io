@@ -27,8 +27,8 @@ I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS
 </div>
 
 <div class="banner-frame" markdown="0">
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Feynman diagrams" loading="lazy">
-<div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Voxel based morphometry" loading="lazy">
+<div class="banner-caption">Examples of Voxel based morphometry.</em> (1949)</div>
 </div>
 
 ### About me
