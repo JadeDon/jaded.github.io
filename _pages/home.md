@@ -16,7 +16,7 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Bayesian Statistics</a>
 </div>
 
-I dream of being a cognitive neuroscientist working in the field of language and neurodiversity.
+My research passion lies at the intersection of cognitive neuroscience, language processing, and neurodiversity.
 
 I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS, and research with people with neurodiversity and patients to shed light on the complex nature of processing in the human mind and brain.
 
