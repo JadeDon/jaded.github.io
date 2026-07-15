@@ -11,6 +11,7 @@ permalink: /
 <div class="chip-container" markdown="0">
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Language</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Cognition</a>
+  <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Neurodiversity</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Neuroimaging</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Bayesian Statistics</a>
 </div>
