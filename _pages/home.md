@@ -36,8 +36,6 @@ I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS
 
 I am raising 2nd year student in the Interdisciplinary Neuroscience Program. 
 
-I hold a B.A. in English Linguistics from Xi’an Jiaotong University in China and a Pg.Dip. in Language Psychology from the University of Edinburgh in Scotland.
-
 My previous research investigated cognitive control in children using EEG, the neural and behavioural basis of childhood reading using MRI, and how bilinguals process information across languages.
 
 In the research offseason, you might spot me journaling, cooking, or backpacking with a camera.
