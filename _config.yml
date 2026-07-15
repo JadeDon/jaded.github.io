@@ -43,7 +43,7 @@ nav_pages:
   - name: teaching
   - name: blogs
   - name: footprints 
-  - name: team 
+#  - name: team 
 
 # ============================================================
 # Advanced Settings (you probably don't need to change these)
