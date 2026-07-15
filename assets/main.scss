@@ -50,3 +50,26 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 // Utilities
 @import "utilities/dark-mode";
 @import "utilities/animations";
+
+// CSS
+ol.bibliography {
+  list-style-type: none !important;
+  counter-reset: pub-counter;
+  padding-left: 0 !important;
+}
+
+ol.bibliography li {
+  position: relative;
+  padding-left: 2rem !important;
+}
+
+ol.bibliography li:not([style*="display: none"]) {
+  counter-increment: pub-counter;
+}
+
+ol.bibliography li:not([style*="display: none"])::before {
+  content: counter(pub-counter) ". ";
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
