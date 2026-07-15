@@ -21,8 +21,9 @@ I dream of being a cognitive neuroscientist working in the field of language and
 I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS, and research with people with neurodiversity and patients to shed light on the complex nature of processing in the human mind and brain.
 
 <div class="callout callout-success" markdown="0">
-<div class="callout-title"><i class="fa-solid fa-award callout-icon"></i> Nobel Prize in Physics, 1965</div>
-<p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
+<div class="callout-title"><i class="fa-solid fa-bullhorn callout-icon"></i> News & Updates</div>
+<p>Excited to join Dr. Ferguson's research group to continue my work in cognitive neuroscience and social communication!
+</p>
 </div>
 
 <div class="banner-frame" markdown="0">
