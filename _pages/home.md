@@ -22,7 +22,7 @@ I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS
 
 <div class="callout callout-success" markdown="0">
 <div class="callout-title"><i class="fa-solid fa-bullhorn callout-icon"></i> News & Updates</div>
-<p>Excited to join Dr. Ferguson's research group to continue my work in cognitive neuroscience and social communication!
+<p>Excited to join Dr. Ferguson's lab to continue my work in social communication in autistic individuals!
 </p>
 </div>
 
