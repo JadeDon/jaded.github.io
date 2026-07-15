@@ -10,7 +10,7 @@ permalink: /footprints/
 I love travelling. This map marks the countries and regions I've visited — some for academic work, others purely for the joy of exploring.
 
 <div class="footprints-map-wrap" markdown="0">
-<div id="footprints-map" data-world="{{ site.url }}{{ site.baseurl }}/assets/data/countries-110m.json" data-footprints="{{ site.url }}{{ site.baseurl }}/assets/data/footprints.json"></div>
+<div id="footprints-map" data-world="{{ site.url }}{{ site.baseurl }}/assets/footprint/countries-110m.json" data-footprints="{{ site.url }}{{ site.baseurl }}/assets/footprint/footprints.json"></div>
 <div class="footprints-legend">
 <span class="legend-item"><span class="legend-swatch visited"></span>Visited</span>
 <span class="legend-item"><span class="legend-swatch"></span>To be explored</span>
