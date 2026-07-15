@@ -1,0 +1,12 @@
+# Optional: detailed education and bio for the About page.
+# Basic info (name, photo, links) now lives in _config.yml.
+# Delete this file if you only need the basics.
+
+# EXAMPLE -- replace or delete
+- education:
+    - "(2027) Ms.C. Neuroscience, University of Missouri-Columbia, US"
+    - "(2025) Pg.Dip. Psychology of Languagr, University of Edinburgh, UK"
+    - "(2022) B.A. English Language and Literature, Xi'an JIaotong Univeristy, China"
+  educationshort:
+    - "(2025) Pg.Dip. Psychology, UoE, UK"
+    - "(2022) B.A. English, XJTU, China"
