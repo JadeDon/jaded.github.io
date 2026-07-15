@@ -21,9 +21,11 @@ I love travelling. This map marks the countries and regions I've visited — som
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/footprints-map.js"></script>
 
-{% if site.posts.size > 0 %}
+{% assign travel_posts = site.posts | where: "category", "travel" %}
+{% if travel_posts.size > 0 %}
+<h3 style="margin-top: 2rem;">Travel Logs 📖</h3>
 <div class="section-card" markdown="0">
-{% for post in site.posts %}
+{% for post in travel_posts %}
 <div class="news-item" style="padding: 1rem 0; border-bottom: 1px solid var(--border-color);">
 <span class="news-date">{{ post.date | date: "%b %-d, %Y" }}</span><br>
 <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" style="font-weight: 600;">{{ post.title }}</a>
