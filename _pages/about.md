@@ -20,9 +20,9 @@ permalink: /about/
 {% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}" class="icon-link" title="GitHub"><i class="fa-brands fa-github"></i></a>{% endif %}
 {% if site.links.researchgate and site.links.researchgate != "" %}<a href="{{ site.links.researchgate }}" class="icon-link" title="ResearchGate"><i class="ai ai-researchgate"></i></a>{% endif %}
 </div>
-{% if site.data.pi[0].education %}
+{% if site.data.position[0].education %}
 <ul style="margin-top: var(--space-4);">
-{% for education in site.data.pi[0].education %}
+{% for education in site.data.position[0].education %}
 <li>{{ education | replace: "-","&#8211;" }}</li>
 {% endfor %}
 </ul>
