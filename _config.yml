@@ -40,10 +40,10 @@ nav_pages:
   - name: publications
   - name: talks
   - name: research
-  - name: projects
   - name: teaching
   - name: blogs
   - name: footprints 
+  - name: team 
 
 # ============================================================
 # Advanced Settings (you probably don't need to change these)
