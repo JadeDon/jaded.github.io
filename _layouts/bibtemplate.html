@@ -5,7 +5,8 @@
 <div class="text-justify">
     {{ reference | replace: 'Dang, J.', '<b>Dang, J.</b>' }}
     {% if entry.address %}
-    <span> ({{ entry.address }})</span>
+    {% assign clean_address = entry.address | strip | remove_first: "," | strip %}
+      <span> ({{ clean_address }})</span>
     {% endif %}
   </div>
 
