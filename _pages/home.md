@@ -28,7 +28,8 @@ I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS
 
 <div class="banner-frame" markdown="0">
 <img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Voxel based morphometry" loading="lazy">
-<div class="banner-caption">Example of Voxel based morphometry</div>
+<div class="banner-caption">Example of voxel based morphometry.
+</div>
 </div>
 
 ### About me
