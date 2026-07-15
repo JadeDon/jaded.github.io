@@ -16,6 +16,7 @@ permalink: /
 </div>
 
 I dream of being a cognitive neuroscientist working in the field of language and neurodiversity.
+
 I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS, and research with people with neurodiversity and patients to shed light on the complex nature of processing in the human mind and brain.
 
 <div class="callout callout-success" markdown="0">
@@ -30,6 +31,10 @@ I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS
 
 ### About me
 
-I am raising 2nd year student in the Interdisciplinary Neuroscience Program. I hold a B.A. in English Linguistics from Xi’an Jiaotong University in China and a Pg.Dip. in Language Psychology from the University of Edinburgh in Scotland.
+I am raising 2nd year student in the Interdisciplinary Neuroscience Program. 
+
+I hold a B.A. in English Linguistics from Xi’an Jiaotong University in China and a Pg.Dip. in Language Psychology from the University of Edinburgh in Scotland.
+
 My previous research investigated cognitive control in children using EEG, the neural and behavioural basis of childhood reading using MRI, and how bilinguals process information across languages.
+
 In the research offseason, you might spot me journaling, cooking, or backpacking with a camera.
