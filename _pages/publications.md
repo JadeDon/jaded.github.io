@@ -12,15 +12,15 @@ permalink: /publications/
 <div class="section-card" id="pubList">
 <h3>Preprints</h3>
 
-{% bibliography --query @unpublished %}
+{% bibliography --query @unpublished --template bibtemplate %}
 
 <!--
 <h3>Refereed Journal Articles</h3>
 
-{% bibliography --query @article %}
+{% bibliography --query @article --template bibtemplate %}
 -->
 
 <h3>Refereed Conference Proceedings</h3>
 
-{% bibliography --query @inproceedings %}
+{% bibliography --query @inproceedings --template bibtemplate %}
 </div>
