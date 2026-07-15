@@ -12,11 +12,11 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Language</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Cognition</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Neuroimaging</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Bayesian Statistics</a>
 </div>
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
+I dream of being a cognitive neuroscientist working in the field of language and neurodiversity.
+I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS, and research with people with neurodiversity and patients to shed light on the complex nature of processing in the human mind and brain.
 
 <div class="callout callout-success" markdown="0">
 <div class="callout-title"><i class="fa-solid fa-award callout-icon"></i> Nobel Prize in Physics, 1965</div>
@@ -30,5 +30,6 @@ Research in theoretical physics helps us to make predictions about how the unive
 
 ### About me
 
-I dream to be a cognitive neurologist working in the field of neurodiversity.
-I am raising 2nd year student in the Interdisciplinary Neuroscience Program. I hold a B.A. in English Linguistics from Xi’an Jiaotong University in China and a Pg.Dip. in Language Psychology from the University of Edinburgh in Scotland. My previous research investigated cognitive control in children using EEG, the neural and behavioural basis of childhood reading using MRI, and how bilinguals process information across languages. My research interests centre on neurodiversity, language disorders, and other cognitive-related topics, with a particular focus on multi-method studies. In the research offseason, you might spot me journaling, cooking, or backpacking with a camera.
+I am raising 2nd year student in the Interdisciplinary Neuroscience Program. I hold a B.A. in English Linguistics from Xi’an Jiaotong University in China and a Pg.Dip. in Language Psychology from the University of Edinburgh in Scotland.
+My previous research investigated cognitive control in children using EEG, the neural and behavioural basis of childhood reading using MRI, and how bilinguals process information across languages.
+In the research offseason, you might spot me journaling, cooking, or backpacking with a camera.
