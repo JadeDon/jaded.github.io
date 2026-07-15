@@ -2,10 +2,15 @@
 ---
 
 <div class="pub-entry" data-pub-searchable>
-  <div class="text-justify">{{ reference }}</div>
+  <div class="text-justify">
+    {{ reference }}
+    {% if entry.address %}
+    <span class="pub-location">, {{ entry.address }}</span>
+  {% endif %}
+  </div>
 
   <!-- You can use the below to make your name bold -->
-  <!-- <div class="text-justify">{{ reference | replace_first: 'Bryngelson, S. H.', '<b>Bryngelson, S. H.</b>' }}</div> -->
+ <div class="text-justify">{{ reference | replace_first: 'Dang, J.', '<b>Dang, J.</b>' }}</div>
 
   {% assign bibtest = false %}
   {% if entry.file %}
@@ -20,6 +25,10 @@
   <div class="pub-actions">
     {% if bibtest %}
     <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank" class="btn-pill btn-pdf">PDF</a>
+    {% endif %}
+
+    {% if entry.url %}
+    <a href="{{ entry.url }}" target="_blank" class="btn-pill btn-url">Link</a>
     {% endif %}
 
     {% if entry.doi %}
