@@ -7,6 +7,8 @@ permalink: /talks/
 
 ## Talks
 
+<input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year...">
+  
 <div class="section-card" id="pubList">
 <h3>Invited Talks</h3>
 
