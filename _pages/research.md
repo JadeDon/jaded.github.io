@@ -10,7 +10,7 @@ permalink: /research/
 <div class="research-grid">
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/FC.png" class="research-thumb" alt="Functional Connectivity">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/fc.png" class="research-thumb" alt="Functional Connectivity">
 <div class="research-body">
 <h4 class="research-title">fMRI Functional Connectivity</h4>
 <p class="research-desc">Reanalyzing Functional Connectivity in the Default Mode Network: Effects of Beta-Adrenergic Antagonism in Autism Spectrum Disorder. Executing localized spatial preprocessing and voxel-wise statistical modeling in SPM, while leveraging Python’s Nilearn library for multivariate functional connectivity analysis.</p>
@@ -34,7 +34,7 @@ permalink: /research/
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/EEG.png" class="research-thumb" alt="Cognitive Control">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/eeg.png" class="research-thumb" alt="Cognitive Control">
 <div class="research-body">
 <h4 class="research-title">Cognitive Control</h4>
 <p class="research-desc">Spearheaded the acquisition of EEG and behavioral datasets from a developmental cohort
