@@ -42,12 +42,9 @@
   <h4 style="margin-top: 0;">Friends</h4>
   <div style="display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-start; margin: 0 8px; align-items: center;">
     {% for friend in site.data.friends %}
-    <a href="{{ friend.href }}" target="_blank" rel="noopener noreferrer" 
-   style="display: inline-flex; color: var(--text-link); border: 1px solid var(--color-neutral-200); background: var(--color-neutral-100); border-radius: 20px; font-size: 0.8rem; transition: all 0.2s;" 
-   onmouseover="this.style.textDecoration='underline'; this.style.filter='brightness(0.85)';" 
-   onmouseout="this.style.textDecoration='none'; this.style.filter='none';">
-      {{ friend.title }}
-      </a>
+<a href="{{ friend.href }}" target="_blank" rel="noopener noreferrer" style="margin: 0 6px; font-size: 0.85rem;">
+  {{ friend.title }}
+</a>
     {% endfor %}
   </div>
 </div>
