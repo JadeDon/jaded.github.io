@@ -18,7 +18,7 @@ training:
   - category: "Statistics & Programming"
     courses:
       - "Foundations of Python Programming (Runestone, 2026)"
-      - "Bayesian Statistical Analyses and linear mixed-effects models (Summer School, University of Edinburgh, 2024)"
+      - "Bayesian Statistical Analyses and linear mixed-effects models (Edinburgh Summer School, 2024)"
       - "General Linear Models"
       - "Univariate and Multivariate Statistics using R"
       - "Introduction to Bayesian Statistics"
