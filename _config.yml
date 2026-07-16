@@ -94,6 +94,12 @@ scholar:
   bibliography_list_attributes:
     reversed: "reversed"
 
+friends:
+  - title: "Huandi Chen"
+    href: "https://huandichen.github.io/"
+  - title: "Apple4us"
+    href: "https://apple4us.com/"
+
 exclude:
   - Gemfile
   - Gemfile.lock
