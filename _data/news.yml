@@ -1,6 +1,9 @@
 # News items shown on the home page sidebar.
 # The 3 most recent are shown; all appear on /allnews.
 # Each entry needs: date, headline
+- date: July, 2026
+  headline: "Personal website launched. Hello world!"
+  
 - date: June, 2026
   headline: "Joined Dr. Brad Ferguson's lab to investigate social communication in autistic individuals."
   
@@ -14,7 +17,7 @@
   headline: "Guest-lectured 'Scientific Reading and Writing' for UM SLHS 4020: Language Disorders."
 
 - date: August, 2025
-  headline: "Joined the program of Interdisciplinary Neuroscience, University of Missouri-Columbia."
+  headline: "Joined Interdisciplinary Neuroscience Program, University of Missouri-Columbia."
 
 - date: May, 2023
   headline: "Awarded Best Abstract at 9th Annual Symposium on Language Research at UC Davis, $50." 
