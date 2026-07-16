@@ -15,10 +15,21 @@ ta_experience:
     year: "2019"
 
 training:
+  - category: "Techniques and Software"
+    courses:
+      - "MRI Training Onboard (University of Missouri-Columbia, 2025)"
+      - "TMS Stimulation Protocols (University of Edinburgh, 2024)"
+      - "Statistical Parametric Mapping (SPM12)"
+      - "EEG Data Acquisition and Experimental Setup (University of Edinburgh, 2023)"
+      - "Brain Vision Analyzer"
+      - "Eyelink 100"
+      - "PsychoPy"
+      - "Zotero"
+      - "SPSS"
   - category: "Statistics & Programming"
     courses:
       - "Foundations of Python Programming (Runestone, 2026)"
-      - "Bayesian Statistical Analyses and linear mixed-effects models (Edinburgh Summer School, 2024)"
+      - "Bayesian Statistical Analyses and Stan (Edinburgh Summer School, 2024)"
       - "General Linear Models"
       - "Univariate and Multivariate Statistics using R"
       - "Introduction to Bayesian Statistics"
