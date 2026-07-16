@@ -5,24 +5,33 @@ sitemap: false
 permalink: /teaching/
 ---
 
+{% if site.data.teaching.ta_experience %}
 ## Teaching Assistant
 
 <div class="section-card">
-<ul>
-<li>BIO_SC 4982W: Human Inherited Diseases &#8211; Writing Intensive, University of Missouri-Columbia (2026)</li>
-<li>SLHS 4020W: Language Disorders in Children &#8211; Writing Intensive, University of Missouri-Columbia (2026)</li>
-<li>SLHS 8320: Speech Sound Disorders, University of Missouri-Columbia (2025)</li>
-<li>College Summer English Program, Xi’an Jiaotong University (2019)</li>
-</ul>
+  <ul>
+  {% for item in site.data.teaching.ta_experience %}
+    <li>
+      {{ item.course }}
+      {% if item.type %} &#8211; {{ item.type }}{% endif %}, 
+      {{ item.institution }} ({{ item.year }})
+    </li>
+  {% endfor %}
+  </ul>
 </div>
+{% endif %}
 
+{% if site.data.teaching.training %}
 ## Received Training
 
 <div class="section-card">
-<ul>
-<li>BIO_SC 4982W: Human Inherited Diseases &#8211; Writing Intensive, University of Missouri-Columbia (2026)</li>
-<li>SLHS 4020W: Language Disorders in Children &#8211; Writing Intensive, University of Missouri-Columbia (2026)</li>
-<li>SLHS 8320: Speech Sound Disorders, University of Missouri-Columbia (2025)</li>
-<li>College Summer English Program, Xi’an Jiaotong University (2019)</li>
-</ul>
+  {% for group in site.data.teaching.training %}
+    <p><strong>{{ group.category }}</strong></p>
+    <ul>
+      {% for course in group.courses %}
+        <li>{{ course }}</li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
 </div>
+{% endif %}
