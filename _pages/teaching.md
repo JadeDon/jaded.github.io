@@ -25,13 +25,14 @@ permalink: /teaching/
 ## Received Training
 
 <div class="section-card">
-  {% for group in site.data.teaching.training %}
-    <p><strong>{{ group.category }}</strong></p>
-    <ul>
-      {% for course in group.courses %}
-        <li>{{ course }}</li>
-      {% endfor %}
-    </ul>
+  <ul>
+  {% for item in site.data.teaching.training %}
+    <li>
+      {{ item.name }}
+      {% if item.type %} &#8211; {{ item.type }}{% endif %}, 
+      {{ item.institution }} ({{ item.year }})
+    </li>
   {% endfor %}
+  </ul>
 </div>
 {% endif %}
