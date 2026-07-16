@@ -50,7 +50,7 @@ permalink: /research/
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/weak-interactions.svg" class="research-thumb" alt="Iterative Continuation Translation Task">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/jade2023effect.png" class="research-thumb" alt="Iterative Continuation Translation Task">
 <div class="research-body">
 <h4 class="research-title">Continuation Translation Task 读后续译</h4>
 <p class="research-desc">Effect of Timing of the Model Text on Alignment in the Iterative Continuation Translation Task.</p>
