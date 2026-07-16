@@ -1,0 +1,85 @@
+// =============================================================
+// Footprints page — academic mobility world map
+// =============================================================
+
+.footprints-map-wrap {
+  position: relative;
+  margin: var(--space-6) 0 var(--space-8);
+}
+
+#footprints-map {
+  position: relative;
+  width: 100%;
+}
+
+.footprints-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  .country {
+    fill: var(--border-color);
+    stroke: var(--bg-card);
+    stroke-width: 0.75;
+    stroke-linejoin: round;
+    transition: fill var(--transition-fast);
+  }
+
+  .country.visited {
+    fill: var(--accent);
+  }
+
+  .country.hovered {
+    fill: var(--accent-hover);
+  }
+}
+
+.footprints-tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+  padding: var(--space-2) var(--space-3);
+  font-size: 0.8125rem;
+  color: var(--text-primary);
+  line-height: 1.4;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+
+  &.show {
+    opacity: 1;
+  }
+}
+
+.footprints-legend {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+}
+
+.footprints-legend .legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.footprints-legend .legend-swatch {
+  display: inline-block;
+  flex-shrink: 0;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: var(--radius-sm);
+  background-color: var(--border-color);
+}
+
+.footprints-legend .legend-swatch.visited {
+  background-color: var(--accent);
+}
