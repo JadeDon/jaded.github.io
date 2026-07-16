@@ -5,7 +5,7 @@ sitemap: false
 permalink: /blogs/
 ---
 
-## Blog
+## Blogs
 
 {% if site.posts.size > 0 %}
 <div class="section-card" markdown="0">
