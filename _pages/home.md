@@ -34,7 +34,7 @@ I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS
 
 ### About me
 
-I am raising 2nd year student in the Interdisciplinary Neuroscience Program. 
+I am a rising 2nd year student in the Interdisciplinary Neuroscience Program. 
 
 My previous research investigated cognitive control in children using EEG, the neural and behavioural basis of childhood reading using MRI, and how bilinguals process information across languages.
 
