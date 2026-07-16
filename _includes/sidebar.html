@@ -42,7 +42,7 @@
   <h4 style="margin-top: 0;">Friends</h4>
   <div style="display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-start; margin: 0 8px; align-items: center;">
     {% for friend in site.data.friends %}
-<a href="{{ friend.href }}" target="_blank" rel="noopener noreferrer" class="icon-link" style="margin: 0 6px; font-size: 0.85rem;">
+<a href="{{ friend.href }}" target="_blank" rel="noopener noreferrer" style="margin: 0 8px; font-size: 0.85rem; color: var(--text-link);">
   {{ friend.title }}
 </a>
     {% endfor %}
