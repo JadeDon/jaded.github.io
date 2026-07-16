@@ -26,12 +26,12 @@ permalink: /teaching/
 
 <div class="section-card">
   {% for group in site.data.teaching.training %}
-    <p><strong>{{ group.category }}</strong></p>
-    <ul>
-      {% for course in group.courses %}
-        <li>{{ course }}</li>
-      {% endfor %}
-    </ul>
+  <p><strong>{{ group.category }}</strong></p>
+  <ul>
+    {% for course in group.courses %}
+    <li>{{ course }}</li>
+    {% endfor %}
+  </ul>
   {% endfor %}
 </div>
 {% endif %}
