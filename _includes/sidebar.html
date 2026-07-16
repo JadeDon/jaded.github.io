@@ -42,10 +42,9 @@
 <h5>FRIENDS</h5>
 <ul class="list-inline">
   {% for friend in site.data.friends %}
-  <li><a href="{{friend.href}}" target="_blank" rel="noopener noreferrer">{{friend.title}}</a></li>
+  <li class="list-inline-item" style="margin-right: 15px;">
+    <a href="{{friend.href}}" target="_blank" rel="noopener noreferrer">{{friend.title}}</a>
+  </li>
   {% endfor %}
 </ul>
 {% endif %}
-
-
-
