@@ -10,49 +10,52 @@ permalink: /research/
 <div class="research-grid">
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/qed.svg" class="research-thumb" alt="Feynman diagram">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/FC.png" class="research-thumb" alt="Functional Connectivity">
 <div class="research-body">
-<h4 class="research-title">Quantum Electrodynamics</h4>
-<p class="research-desc">Development of the path integral formulation of quantum mechanics and its application to quantum electrodynamics (QED). This work introduced Feynman diagrams as a powerful tool for calculating particle interactions, providing an intuitive visual representation of complex quantum processes.</p>
+<h4 class="research-title">fMRI Functional Connectivity</h4>
+<p class="research-desc">Reanalyzing Functional Connectivity in the Default Mode Network: Effects of Beta-Adrenergic Antagonism in Autism Spectrum Disorder. Executing localized spatial preprocessing and voxel-wise statistical modeling in SPM, while leveraging Python’s Nilearn library for multivariate functional connectivity analysis.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/superfluidity.svg" class="research-thumb" alt="Superfluid helium">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/jade2026assessing.png" class="research-thumb" alt="Social Communication in ASD">
 <div class="research-body">
-<h4 class="research-title">Superfluidity</h4>
-<p class="research-desc">Quantum mechanical explanation of the behavior of liquid helium near absolute zero. Using path integral methods, we developed a microscopic theory of the lambda transition and explained the energy spectrum of excitations in superfluid helium, including the roton minimum.</p>
+<h4 class="research-title">Social Communication in ASD</h4>
+<p class="research-desc">Assessing Social Conversation in Autism Spectrum Disorder Through Lexical and Syntactic Pipeline Analysis​.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/partons.svg" class="research-thumb" alt="Parton model">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/jade2025spatial.png" class="research-thumb" alt="Spatial cognition and language in ASD">
 <div class="research-body">
-<h4 class="research-title">Parton Model</h4>
-<p class="research-desc">A model describing the internal structure of hadrons in terms of point-like constituents called partons. This framework proved essential for interpreting deep inelastic scattering experiments at SLAC and laid the groundwork for quantum chromodynamics (QCD).</p>
+<h4 class="research-title">Spatial cognition and language in ASD</h4>
+<p class="research-desc">Analyzed a diverse battery of behavioral measures to evaluate the selective dissociation between structural language abilities and visuospatial processing in autistic population, and to identify cognitive markers that best differentiate autistic individuals from neurotypical peers. Devised a standardized set of phonotactically legal nonword linguistic stimuli to validate novel experimental paradigms for cognitive dissociation.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/quantum-computing.svg" class="research-thumb" alt="Quantum circuit">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/EEG.png" class="research-thumb" alt="Cognitive Control">
 <div class="research-body">
-<h4 class="research-title">Quantum Computing</h4>
-<p class="research-desc">Pioneering proposals for using quantum mechanical systems to perform computation. We demonstrated that classical computers cannot efficiently simulate quantum physics, motivating the development of quantum computers that exploit superposition and entanglement.</p>
+<h4 class="research-title">Cognitive Control</h4>
+<p class="research-desc">Spearheaded the acquisition of EEG and behavioral datasets from a developmental cohort
+(children aged 4–8) to evaluate cognitive control dynamics.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/nanotechnology.svg" class="research-thumb" alt="Atomic manipulation">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/dyslexia.png" class="research-thumb" alt="Dyslexia">
 <div class="research-body">
-<h4 class="research-title">Nanotechnology</h4>
-<p class="research-desc">Exploration of the physical possibilities of manipulating matter at the atomic scale. The talk "There's Plenty of Room at the Bottom" envisioned machines that could arrange atoms one by one, anticipating modern nanotechnology and molecular manufacturing.</p>
+<h4 class="research-title">Dyslexia</h4>
+<p class="research-desc">Coordinated and executed behavioural data collection, leveraging PsychoPy and
+OpenHandWrite to precisely quantify spelling accuracy and latency markers in developmental
+populations, culminating in a stroke-level large-scale database of Chinese character handwriting.</p>
 </div>
 </div>
 
 <div class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/jade2023effect.png" class="research-thumb" alt="Iterative Continuation Translation Task">
 <div class="research-body">
-<h4 class="research-title">Continuation Translation Task 读后续译</h4>
+<h4 class="research-title">Continuation Translation Task</h4>
 <p class="research-desc">Effect of Timing of the Model Text on Alignment in the Iterative Continuation Translation Task.</p>
 </div>
 </div>
