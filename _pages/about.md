@@ -55,10 +55,21 @@ permalink: /about/
 
 {% if site.data.awards %}
 <div class="section-card">
-<h3>Awards</h3>
+<h3>Awards and Honors</h3>
 <ul>
 {% for award in site.data.awards %}
 <li>{{ award.name | replace: "-","&#8211;" }}</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
+{% if site.data.work %}
+<div class="section-card">
+<h3>Work and Service</h3>
+<ul>
+{% for work in site.data.work %}
+<li>{{ work.name | replace: "-","&#8211;" }}</li>
 {% endfor %}
 </ul>
 </div>
