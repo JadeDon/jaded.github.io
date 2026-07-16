@@ -1,7 +1,7 @@
 # News items shown on the home page sidebar.
 # The 3 most recent are shown; all appear on /allnews.
 # Each entry needs: date, headline
-- date: July, 2026
+- date: 16 July, 2026
   headline: "Personal website launched. Hello world!"
   
 - date: June, 2026
