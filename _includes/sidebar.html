@@ -36,3 +36,16 @@
 </div>
 <p style="margin-top: var(--space-4);"><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">See all news &rarr;</a></p>
 </div>
+
+{% if site.data.friends %}
+<hr>
+<h5>FRIENDS</h5>
+<ul class="list-inline">
+  {% for friend in site.data.friends %}
+  <li><a href="{{friend.href}}" target="_blank" rel="noopener noreferrer">{{friend.title}}</a></li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+
+
