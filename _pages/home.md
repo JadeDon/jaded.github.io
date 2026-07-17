@@ -22,8 +22,7 @@ I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS
 
 <div class="callout callout-success" markdown="0">
 <div class="callout-title"><i class="fa-solid fa-bullhorn callout-icon"></i> Updates</div>
-<p>Excited to join [Dr. Ferguson](https://medicine.missouri.edu/faculty/brad-ferguson-ma-phd)'s lab to continue my work in social communication in autistic individuals!
-</p>
+<p>Excited to join <a href="https://medicine.missouri.edu/faculty/brad-ferguson-ma-phd">Dr. Ferguson</a>'s lab to continue my work in social communication in autistic individuals!</p>
 </div>
 
 <div class="banner-frame" markdown="0">
