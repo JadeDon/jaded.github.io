@@ -9,9 +9,9 @@ permalink: /blog/
 
 I cry, laugh, and reflect in Mandarin. I analyse, reassure, and claim in English.
 
-You can find my Mandarin blog at <a href="http://t.cn/A66XOoJh">坚瓠</a>. <small>
+You can find my Mandarin blog at <a href="http://t.cn/A66XOoJh">坚瓠</a>.
 
-    Note: this blog is hosted within an in-app publishing ecosystem. Consequently, external web links may not provide an optimal viewing experience.<small>
+    Note: <a href="http://t.cn/A66XOoJh">坚瓠</a> is hosted within an in-app publishing ecosystem. Consequently, external web links may not provide an optimal viewing experience.
 
 Below are selected entries, interpreted with the help of GPT.
 
