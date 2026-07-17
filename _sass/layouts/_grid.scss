@@ -14,7 +14,8 @@
   padding: var(--space-8) var(--container-padding) 0;
 }
 
-// Let main containers and academic cards stretch to full width
+// Let the main page container and cards stretch to full width
+.site-container,
 .container,
 .section-card,
 .card-academic {
