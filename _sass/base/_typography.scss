@@ -98,23 +98,3 @@ hr {
   border-top: 1px solid var(--border-color);
   margin: var(--space-8) 0;
 }
-
-// Custom Blockquote Overrides
-.post, 
-.page, 
-.post-content, 
-.page__content, 
-#main {
-  max-width: 95% !important;
-}
-.wrapper {
-  max-width: 95% !important;
-  width: 95% !important;
-}
-
-.archive, 
-.list__item, 
-.grid__item {
-  max-width: 100% !important;
-  width: 100% !important;
-}
