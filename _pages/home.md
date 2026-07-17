@@ -16,7 +16,9 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Bayesian Statistics</a>
 </div>
 
-My goal is to become a cognitive neuroscientist. My research passion lies at the intersection of cognitive neuroscience, neurodiversity, child development, and language processing.
+My goal is to become a cognitive neuroscientist. 
+
+My research passion lies at the intersection of cognitive neuroscience, neurodiversity, child development, and language processing.
 
 I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS, and research with neurodiverse people and patients, to shed light on the complex nature of processing in the human mind and brain.
 
