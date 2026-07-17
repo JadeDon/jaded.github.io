@@ -7,11 +7,11 @@ permalink: /blog/
 
 ## Blog
 
-I cry in Mandarin and laugh in English. Only this year have I started to trust English as I trust Mandarin.
+I cry, laugh, and reflect in Mandarin. I analyse, reassure, and claim in English.
 
 You can find my Mandarin blog at <a href="http://t.cn/A66XOoJh">坚瓠</a>. 
 
-Note: my blog is hosted within an in-app publishing ecosystem. Consequently, external web links may not provide an optimal viewing experience.
+<small>Note: this blog is hosted within an in-app publishing ecosystem. Consequently, external web links may not provide an optimal viewing experience.<small>
 
 Below are selected entries from my blog, interpreted with the help of GPT.
 
