@@ -24,3 +24,40 @@ permalink: /publications/
 
 {% bibliography --query @inproceedings --template bibtemplate %}
 </div>
+
+
+<script>
+document.getElementById('pubSearch').addEventListener('input', function(e) {
+  const query = e.target.value.toLowerCase().trim();
+  const sectionCard = document.getElementById('pubList');
+  const lists = sectionCard.querySelectorAll('ol, ul');
+
+  lists.forEach(list => {
+    const items = list.querySelectorAll('li');
+    let hasAnyMatch = false;
+
+    items.forEach(item => {
+      const text = item.textContent.toLowerCase();
+      if (text.includes(query)) {
+        item.style.display = "";
+        hasAnyMatch = true;
+      } else {
+        item.style.display = "none";
+      }
+    });
+
+    let heading = list.previousElementSibling;
+    while (heading && heading.tagName !== 'H3') {
+      heading = heading.previousElementSibling;
+    }
+
+    if (hasAnyMatch) {
+      list.style.display = "";
+      if (heading) heading.style.display = "";
+    } else {
+      list.style.display = "none";
+      if (heading) heading.style.display = "none";
+    }
+  });
+});
+</script>
