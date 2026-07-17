@@ -32,8 +32,8 @@ training:
       - "SPSS"
   - category: "Statistics & Programming"
     courses:
-      - "Bayesian Psychometrics"
       - "Foundations of Python Programming (Runestone, 2026)"
+      - "Bayesian Psychometrics"
       - "Bayesian Statistical Analyses and Stan (Summer School, University of Edinburgh, 2024)"
       - "Introduction to Bayesian Statistics"
       - "General Linear Models"
