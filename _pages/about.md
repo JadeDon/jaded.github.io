@@ -32,7 +32,7 @@ permalink: /about/
   {% endif %}
 </div>
 {% if site.data.position[0].education %}
-<ul style="margin-top: var(--space-4);">
+<ul style="margin-top: 6px;">
 {% for education in site.data.position[0].education %}
 <li>{{ education | replace: "-","&#8211;" }}</li>
 {% endfor %}
