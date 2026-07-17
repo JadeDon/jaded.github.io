@@ -16,7 +16,7 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Bayesian Statistics</a>
 </div>
 
-My research passion lies at the intersection of cognitive neuroscience, language processing, and neurodiversity.
+My goal is to become a cognitive neuroscientist. My research passion lies at the intersection of cognitive neuroscience, neurodiversity, child development, and language processing.
 
 I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS, and research with people with neurodiversity and patients to shed light on the complex nature of processing in the human mind and brain.
 
@@ -32,10 +32,7 @@ I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS
 </div>
 </div>
 
-### About me
 
-I am a rising 2nd year PhD student in the Interdisciplinary Neuroscience Program. 
-
-My previous research investigated cognitive control in children using EEG, the neural and behavioural basis of childhood reading using MRI, and how bilinguals process information across languages.
+I am currently a rising 2nd year PhD student in Neuroscience.
 
 In the research offseason, you might spot me journaling, cooking, or backpacking with a camera.
