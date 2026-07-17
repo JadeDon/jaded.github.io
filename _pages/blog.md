@@ -15,7 +15,7 @@ You can find my Mandarin blog at <a href="http://t.cn/A66XOoJh">坚瓠</a>.
   <span style="text-transform: uppercase; font-weight: bold; letter-spacing: 1px; font-size: 0.9em; color: #444;">Note —</span> <a href="http://t.cn/A66XOoJh">坚瓠</a> is hosted within an in-app publishing ecosystem. Consequently, external web links may not provide an optimal viewing experience.
 </p>
 
-Below are selected entries, interpreted with the help of GPT.
+Below are selected entries, translated with the help of GPT.
 
 {% if site.posts.size > 0 %}
 <div class="section-card" markdown="0">
