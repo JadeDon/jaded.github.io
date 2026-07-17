@@ -7,6 +7,9 @@ permalink: /footprints/
 
 ## Footprints
 
+> *The word for world is forest.*
+> <p align="right">— Ursula K. Le Guin, 1972</p>
+
 <div class="footprints-map-wrap" markdown="0">
 <div id="footprints-map" data-world="{{ site.url }}{{ site.baseurl }}/assets/footprint/countries-110m.json" data-footprints="{{ site.url }}{{ site.baseurl }}/assets/footprint/footprints.json"></div>
 <div class="footprints-legend">
