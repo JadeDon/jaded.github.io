@@ -1,11 +1,17 @@
 ---
-title: "Blogs"
+title: "Blog"
 layout: gridlay
 sitemap: false
 permalink: /blogs/
 ---
 
-## Blogs
+## Blog
+
+I cry in Mandarin and laugh in English. Only this year have I started to trust English as I trust Mandarin.
+
+You can find my blog here. <a href="http://t.cn/A66XOoJh">坚瓠</a> Note this web pages are not quite user-friendly.
+
+Below are selected entries from my blog, interpreted with the help of GPT.
 
 {% if site.posts.size > 0 %}
 <div class="section-card" markdown="0">
