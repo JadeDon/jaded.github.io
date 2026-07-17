@@ -7,11 +7,8 @@ permalink: /footprints/
 
 ## Footprints
 
-<p style="font-size: 1.25em; font-style: italic; margin-bottom: 5px;">
-  The word for world is forest.
-</p>
-<p style="text-align: right; color: #666; font-size: 0.9em;">
-  — Ursula K. Le Guin, <cite>1972</cite>
+<p style="font-style: italic; color: #666; margin-bottom: 5px;">
+  The word for world is forest.         — Ursula K. Le Guin, <cite>1972</cite>
 </p>
 
 <div class="footprints-map-wrap" markdown="0">
