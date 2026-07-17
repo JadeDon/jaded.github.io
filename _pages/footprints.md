@@ -7,8 +7,20 @@ permalink: /footprints/
 
 ## Footprints
 
-> *The word for world is forest.*
-> <p align="right">— Ursula K. Le Guin, 1972</p>
+<p style="font-size: 1.25em; font-style: italic; margin-bottom: 5px;">
+  "The word for world is forest."
+</p>
+<p style="text-align: right; color: #666; font-size: 0.9em;">
+  — Ursula K. Le Guin, <cite>1972</cite>
+</p>
+
+<blockquote style="border-left: 2px solid #ccc; padding-left: 15px; font-style: italic;">
+  The word for world is forest.
+  <br>
+  <span style="font-style: normal; font-size: 0.9em; color: #555; display: block; text-align: right;">
+    &mdash; URSULA K. LE GUIN, 1972
+  </span>
+</blockquote>
 
 <div class="footprints-map-wrap" markdown="0">
 <div id="footprints-map" data-world="{{ site.url }}{{ site.baseurl }}/assets/footprint/countries-110m.json" data-footprints="{{ site.url }}{{ site.baseurl }}/assets/footprint/footprints.json"></div>
