@@ -29,8 +29,10 @@ permalink: /publications/
 <script>
 document.getElementById('pubSearch').addEventListener('input', function(e) {
   const query = e.target.value.toLowerCase().trim();
+  const rawQuery = e.target.value;
   const sectionCard = document.getElementById('pubList');
   const lists = sectionCard.querySelectorAll('ol, ul');
+  let anyMatchInWholePage = false;
 
   lists.forEach(list => {
     const items = list.querySelectorAll('li');
@@ -41,6 +43,7 @@ document.getElementById('pubSearch').addEventListener('input', function(e) {
       if (text.includes(query)) {
         item.style.display = "";
         hasAnyMatch = true;
+        anyMatchInWholePage = true;
       } else {
         item.style.display = "none";
       }
@@ -59,5 +62,23 @@ document.getElementById('pubSearch').addEventListener('input', function(e) {
       if (heading) heading.style.display = "none";
     }
   });
+
+  let noResultsMessage = document.getElementById('noResults');
+  if (!noResultsMessage) {
+    noResultsMessage = document.createElement('div');
+    noResultsMessage.id = 'noResults';
+    noResultsMessage.style.textAlign = 'center';
+    noResultsMessage.style.padding = '20px';
+    noResultsMessage.style.color = '#777';
+    noResultsMessage.style.fontSize = '1.1em';
+    sectionCard.appendChild(noResultsMessage);
+  }
+
+  if (anyMatchInWholePage || query === '') {
+    noResultsMessage.style.display = 'none';
+  } else {
+    noResultsMessage.textContent = 'No results for "' + rawQuery + '"';
+    noResultsMessage.style.display = '';
+  }
 });
 </script>
