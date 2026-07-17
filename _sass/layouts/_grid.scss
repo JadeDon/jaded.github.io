@@ -13,3 +13,11 @@
   margin: 0 auto;
   padding: var(--space-8) var(--container-padding) 0;
 }
+
+// Let main containers and academic cards stretch to full width
+.container,
+.section-card,
+.card-academic {
+  max-width: 100% !important;
+  width: 100% !important;
+}
