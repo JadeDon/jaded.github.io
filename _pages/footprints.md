@@ -8,7 +8,7 @@ permalink: /footprints/
 ## Footprints
 
 <p style="font-size: 1.25em; font-style: italic; margin-bottom: 5px;">
-  "The word for world is forest."
+  The word for world is forest.
 </p>
 <p style="text-align: right; color: #666; font-size: 0.9em;">
   — Ursula K. Le Guin, <cite>1972</cite>
