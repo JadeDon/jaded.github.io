@@ -100,28 +100,21 @@ hr {
 }
 
 // Custom Blockquote Overrides
-p[align="right"], 
-div[align="right"],
-p[style*="text-align: right"],
-div[style*="text-align: right"],
-span[style*="text-align: right"] {
-  margin-right: 0 !important;
-  padding-right: 0 !important;
+.post, 
+.page, 
+.post-content, 
+.page__content, 
+#main {
+  max-width: 95% !important;
+}
+.wrapper {
+  max-width: 95% !important;
+  width: 95% !important;
 }
 
-.archive__item-excerpt,
-.page__content,
-.post__content,
-.post-content {
-  padding-right: 0 !important;
-}
-
-blockquote {
-  padding-right: 0 !important;
-  margin-right: 0 !important;
-}
-
-blockquote p {
-  margin-right: 0 !important;
-  padding-right: 0 !important;
+.archive, 
+.list__item, 
+.grid__item {
+  max-width: 100% !important;
+  width: 100% !important;
 }
