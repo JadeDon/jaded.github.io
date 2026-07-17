@@ -9,7 +9,9 @@ permalink: /blogs/
 
 I cry in Mandarin and laugh in English. Only this year have I started to trust English as I trust Mandarin.
 
-You can find my blog here. <a href="http://t.cn/A66XOoJh">坚瓠</a> Note this web pages are not quite user-friendly.
+You can find my blog at <a href="http://t.cn/A66XOoJh">坚瓠</a>. 
+
+Note: my blog is hosted within an in-app publishing ecosystem. Consequently, external web links may not provide an optimal viewing experience.
 
 Below are selected entries from my blog, interpreted with the help of GPT.
 
