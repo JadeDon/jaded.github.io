@@ -21,8 +21,8 @@ My goal is to become a cognitive neuroscientist. My research passion lies at the
 I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS, and research with neurodiverse people and patients, to shed light on the complex nature of processing in the human mind and brain.
 
 <div class="callout callout-success" markdown="0">
-<div class="callout-title"><i class="fa-solid fa-bullhorn callout-icon"></i> News & Updates</div>
-<p>Excited to join Dr. Ferguson's lab to continue my work in social communication in autistic individuals!
+<div class="callout-title"><i class="fa-solid fa-bullhorn callout-icon"></i> Updates</div>
+<p>Excited to join [Dr. Ferguson](https://medicine.missouri.edu/faculty/brad-ferguson-ma-phd)'s lab to continue my work in social communication in autistic individuals!
 </p>
 </div>
 
