@@ -12,7 +12,9 @@ I cry, laugh, and reflect in Mandarin. I analyse, reassure, and claim in English
 My Mandarin blog can be found at <a href="http://t.cn/A66XOoJh">坚瓠</a>.
 
 <p style="font-size: 0.85em; color: #666; border-top: 1px dashed #ddd; padding-top: 2px; margin-top: 2px;">
-  <span style="text-transform: uppercase; font-weight: bold; letter-spacing: 1px; font-size: 0.9em; color: #444;">Note —</span> <a href="http://t.cn/A66XOoJh">坚瓠</a> is hosted within an in-app publishing ecosystem. Consequently, external web links may not provide an optimal viewing experience.
+  <span style="text-transform: uppercase; font-weight: bold; letter-spacing: 1px; font-size: 0.9em; color: #444;">Note —</span> <a href="http://t.cn/A66XOoJh">坚瓠</a> is hosted within an in-app publishing ecosystem. 
+  
+  Consequently, external web links may not provide an optimal viewing experience.
 </p>
 
 Below are selected entries, translated with the help of GPT.
