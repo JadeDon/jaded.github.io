@@ -1,6 +1,6 @@
 ### Welcome
 
-Welcome to my academic personal website!
+Welcome to my academic personal web pages!
 This is my very first step as a researcher. 
 
 I hope you enjoy exploring it.
