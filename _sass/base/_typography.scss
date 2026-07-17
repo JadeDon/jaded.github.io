@@ -98,3 +98,9 @@ hr {
   border-top: 1px solid var(--border-color);
   margin: var(--space-8) 0;
 }
+
+// Custom Blockquote Overrides
+blockquote {
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+}
