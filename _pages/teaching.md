@@ -12,7 +12,7 @@ permalink: /teaching/
   <ul>
   {% for item in site.data.teaching.ta_experience %}
     <li>
-      {{ item.year }} &ndash; {{ item.course }}
+      ({{ item.year }}) {{ item.course }}
       {% if item.type %} &#8211; {{ item.type }}{% endif %}, 
       {{ item.institution }}
     </li>
