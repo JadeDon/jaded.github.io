@@ -2,7 +2,7 @@
 title: "Blog"
 layout: gridlay
 sitemap: false
-permalink: /blogs/
+permalink: /blog/
 ---
 
 ## Blog
