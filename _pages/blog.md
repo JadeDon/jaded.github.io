@@ -11,7 +11,7 @@ I cry, laugh, and reflect in Mandarin. I analyse, reassure, and claim in English
 
 You can find my Mandarin blog at <a href="http://t.cn/A66XOoJh">坚瓠</a>. <small>Note: this blog is hosted within an in-app publishing ecosystem. Consequently, external web links may not provide an optimal viewing experience.<small>
 
-Below are selected entries from my blog, interpreted with the help of GPT.
+Below are selected entries from <a href="http://t.cn/A66XOoJh">坚瓠</a>, interpreted with the help of GPT.
 
 {% if site.posts.size > 0 %}
 <div class="section-card" markdown="0">
