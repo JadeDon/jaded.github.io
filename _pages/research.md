@@ -19,7 +19,11 @@ permalink: /research/
 {% endif %}
 {% if research.supervisor != empty %}
 <dl class="research-meta">
-<div><dt>Mentor</dt><dd>{{ research.supervisor }}</dd></div>
+<div><dt>Mentor</dt><dd>
+  <a href="{{ research.supervisor_link }}" target="_blank" rel="noopener">
+    {{ research.supervisor_name }}
+  </a>
+</dd></div>
 </dl>
 {% endif %}
 <p class="research-desc">{{ research.desc }}</p>
