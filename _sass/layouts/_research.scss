@@ -189,6 +189,15 @@
   h2 { margin-top: 0; }
 }
 
+.project-external-link {
+  color: var(--text-muted);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--accent);
+  }
+}
+
 .project-meta {
   margin: var(--space-6) 0;
   padding: var(--space-4);
