@@ -149,6 +149,12 @@
   border: 1px solid var(--border-color);
   border-radius: var(--radius-xl);
   object-fit: cover;
+  transition: transform var(--transition-slow), box-shadow var(--transition-slow);
+
+  &:hover {
+    box-shadow: var(--shadow-lg);
+    transform: scale(1.015);
+  }
 }
 
 .project-content {
