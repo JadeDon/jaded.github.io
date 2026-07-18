@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article itemscope itemtype="http://schema.org/BlogPosting">
+<article class="blog-post" itemscope itemtype="http://schema.org/BlogPosting">
   <h2 itemprop="name headline">{{ page.title | escape }}</h2>
   <p class="text-muted" style="font-size: 0.875rem;">
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>

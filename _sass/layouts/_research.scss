@@ -178,9 +178,12 @@
 }
 
 .project-content {
-  max-width: 68ch;
-
   h2 { margin-top: 0; }
+
+  p,
+  li {
+    max-width: none;
+  }
 }
 
 .project-external-link {
