@@ -17,16 +17,16 @@ permalink: /research/
 {% if research.date != empty or research.category != empty %}
 <p class="research-date">{% if research.date != empty %}{{ research.date }}{% endif %}{% if research.date != empty and research.category != empty %} <span aria-hidden="true">·</span> {% endif %}{% if research.category != empty %}{{ research.category }}{% endif %}</p>
 {% endif %}
-{% if research.supervisor_name != empty %}
+{% if research.pi_name != empty %}
 <dl class="research-meta">
   <div>
-    <dt>Mentor</dt>
-    <dd>{% if research.supervisor_link != empty %}<a href="{{ research.supervisor_link }}">{{ research.supervisor_name }}</a>{% else %}{{ research.supervisor_name }}{% endif %}</dd>
+    <dt>PI</dt>
+    <dd>{% if research.pi_link != empty %}<a href="{{ research.pi_link }}">{{ research.pi_name }}</a>{% else %}{{ research.pi_name }}{% endif %}</dd>
   </div>
 </dl>
 {% endif %}
 <p class="research-desc">{{ research.desc }}</p>
-
+<a class="research-link" href="{{ '/research/' | append: research.slug | append: '/' | relative_url }}">View<span aria-hidden="true">→</span></a>
 </div>
 </article>
 {% endfor %}

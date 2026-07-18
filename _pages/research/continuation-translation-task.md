@@ -1,7 +1,6 @@
 ---
 title: "Continuation Translation Task"
-layout: post
-date: 2021-06 - 2022-07
+layout: research-project
 permalink: /research/continuation-translation-task/
 research_slug: continuation-translation-task
 ---

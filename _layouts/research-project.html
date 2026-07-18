@@ -4,29 +4,22 @@ layout: default
 
 {% assign project = site.data.research | where: "slug", page.research_slug | first %}
 
-<article class="project-page fade-in-section">
+<article class="fade-in-section" itemscope itemtype="http://schema.org/ScholarlyArticle">
   <a class="project-back" href="{{ '/research/' | relative_url }}">← All research</a>
+  <h2 itemprop="name headline">{{ project.title | default: page.title | escape }}</h2>
 
-  <header class="project-header">
-    <p class="project-eyebrow">Research project{% if project.category != empty %} · {{ project.category }}{% endif %}</p>
-    <h1>{{ project.title }}</h1>
-    {% if project.date != empty %}<p class="project-date">{{ project.date }}</p>{% endif %}
-  </header>
+  <div class="text-muted project-details" style="font-size: 0.875rem;">
+    {% if project.date != empty %}<span itemprop="datePublished">{{ project.date }}</span>{% endif %}{% if project.date != empty and project.category != empty %} &middot; {% endif %}{% if project.category != empty %}<span>{{ project.category }}</span>{% endif %}
+    {% if project.pi_name != empty %}<br>PI: {% if project.pi_link != empty %}<a href="{{ project.pi_link }}">{{ project.pi_name }}</a>{% else %}{{ project.pi_name }}{% endif %}{% endif %}
+    {% if project.mentors and project.mentors.size > 0 %}<br>Graduate Student Mentors: {% for mentor in project.mentors %}{% if mentor.link != empty %}<a href="{{ mentor.link }}">{{ mentor.name }}</a>{% else %}{{ mentor.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
+    {% if project.lab_name != empty %}<br>{% if project.lab_link != empty %}<a href="{{ project.lab_link }}">{{ project.lab_name }}</a>{% else %}{{ project.lab_name }}{% endif %}{% endif %}{% if project.institution_name != empty %}{% if project.lab_name != empty %}, {% endif %}{% if project.institution_link != empty %}<a href="{{ project.institution_link }}">{{ project.institution_name }}</a>{% else %}{{ project.institution_name }}{% endif %}{% endif %}
+  </div>
 
-  <img class="project-image" src="{{ '/images/research/' | append: project.image | relative_url }}" alt="{{ project.title }}">
+  {% if project.image != empty %}<img class="project-image" src="{{ '/images/research/' | append: project.image | relative_url }}" alt="{{ project.title }}">{% endif %}
 
-  <div class="project-content">
-    <h2>Overview</h2>
-    <p>{{ project.desc }}</p>
-
-    {% if project.supervisor != empty %}
-    <dl class="project-meta">
-      <div><dt>Supervisor</dt><dd>{{ project.supervisor }}</dd></div>
-    </dl>
-    {% endif %}
-
+  <div itemprop="articleBody" class="project-content">
+    {% if project.desc != empty %}<p>{{ project.desc }}</p>{% endif %}
     {{ content }}
-
     <div class="project-actions">
       {% if project.pub_link %}<a class="btn-pill btn-website" href="{{ project.pub_link | relative_url }}">Related publication</a>{% endif %}
       {% if project.talk_link %}<a class="btn-pill btn-abstract" href="{{ project.talk_link | relative_url }}">Related talk</a>{% endif %}
