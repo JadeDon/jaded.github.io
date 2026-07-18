@@ -17,7 +17,7 @@ layout: default
     {% if lab_name != "" %}<br>{% if project.lab_link != empty %}<a class="project-external-link" href="{{ project.lab_link }}">{{ lab_name }}</a>{% else %}{{ lab_name }}{% endif %}{% if institution_name != "" %}, {% if project.institution_link != empty %}<a class="project-external-link" href="{{ project.institution_link }}">{{ institution_name }}</a>{% else %}{{ institution_name }}{% endif %}{% endif %}{% elsif institution_name != "" %}<br>{% if project.institution_link != empty %}<a class="project-external-link" href="{{ project.institution_link }}">{{ institution_name }}</a>{% else %}{{ institution_name }}{% endif %}{% endif %}
   </div>
 
-  {% if project.image != empty %}<img class="project-image" src="{{ '/images/research/' | append: project.image | relative_url }}" alt="{{ project.title }}">{% endif %}
+#  {% if project.image != empty %}<img class="project-image" src="{{ '/images/research/' | append: project.image | relative_url }}" alt="{{ project.title }}">{% endif %}
 
   <div itemprop="articleBody" class="project-content">
     {% if project.desc != empty %}<p>{{ project.desc }}</p>{% endif %}
