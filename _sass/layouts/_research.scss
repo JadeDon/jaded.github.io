@@ -8,14 +8,24 @@
   gap: var(--space-6);
 }
 
-.research-external-link {
-  display: inline-block;
+// Text links on research pages follow the Friends interaction: muted by
+// default, accent-colored on hover, with the site-wide animated underline.
+.research-external-link,
+.research-meta dd a,
+.project-details a,
+.project-content a:not(.btn-pill),
+.project-back {
   color: var(--text-muted) !important;
   text-decoration: none !important;
 
-  &:hover {
+  &:hover,
+  &:focus-visible {
     color: var(--accent) !important;
   }
+}
+
+.research-external-link {
+  display: inline-block;
 }
 
 .research-card {
@@ -164,22 +174,6 @@
   &:hover {
     box-shadow: var(--shadow-lg);
     transform: scale(1.015);
-  }
-}
-
-.project-details a {
-  color: var(--accent);
-  font-weight: 600;
-  text-decoration: underline;
-  text-decoration-color: transparent;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.2em;
-  transition: color var(--transition-fast), text-decoration-color var(--transition-fast);
-
-  &:hover,
-  &:focus-visible {
-    color: var(--accent-hover);
-    text-decoration-color: currentColor;
   }
 }
 
