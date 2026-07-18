@@ -51,6 +51,11 @@
     margin-bottom: var(--space-2);
   }
 
+  .research-card-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
   .research-date {
     color: var(--text-muted);
     font-size: 0.8125rem;
@@ -78,6 +83,10 @@
     dd {
       color: var(--text-secondary);
       margin: 0;
+
+      a {
+        color: inherit;
+      }
     }
   }
 
@@ -93,6 +102,11 @@
     color: var(--accent);
     font-size: 0.8125rem;
     font-weight: 700;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -164,4 +178,3 @@
   gap: var(--space-2);
   margin-top: var(--space-8);
 }
-
