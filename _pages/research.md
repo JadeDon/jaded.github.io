@@ -23,7 +23,7 @@ permalink: /research/
 </dl>
 {% endif %}
 <p class="research-desc">{{ research.desc }}</p>
-<span class="research-link">View <span aria-hidden="true">→</span></span>
+<span class="research-link">View<span aria-hidden="true">→</span></span>
 </div>
 </a>
 {% endfor %}

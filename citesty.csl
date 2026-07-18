@@ -1485,7 +1485,11 @@
     <choose>
       <if variable="container-title" match="any">
         <group delimiter=" ">
-          <text term="in" text-case="capitalize-first"/>
+          <choose>
+            <if type="chapter" match="none">
+              <text term="in" text-case="capitalize-first"/>
+            </if>
+          </choose>
           <group delimiter=", ">
             <names variable="editor translator" delimiter=", &amp; ">
               <!-- Change to editortranslator and move editor to substitute as that becomes available -->
