@@ -54,7 +54,8 @@
   institution_link: "https://ling.cuhk.edu.hk/"
   desc: "Coordinated and executed behavioural data collection, leveraging PsychoPy and OpenHandWrite to precisely quantify spelling accuracy and latency markers in developmental populations, culminating in a stroke-level large-scale database of Chinese character handwriting."
 
-- title: "Continuation Translation Task \n读后续译"
+- title: "Continuation Translation Task 
+    读后续译"
   slug: "continuation-translation-task"
   image: "jade2023effect.png"
   date: "2022"
