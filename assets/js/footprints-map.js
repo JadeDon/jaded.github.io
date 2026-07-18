@@ -71,5 +71,42 @@
         d3.select(this).classed("hovered", false);
         tooltip.classed("show", false);
       });
+
+    // A small paired-footprint motif adds a travel cue without obscuring the
+    // country colors. Pointer events stay on the country paths for tooltips.
+    var visitedCountries = countries.filter(function (d) {
+      return footprints[d.properties.name] && footprints[d.properties.name].visited;
+    });
+
+    var footprintMarks = svg
+      .append("g")
+      .attr("class", "footprint-marks")
+      .selectAll("g.footprint-mark")
+      .data(visitedCountries)
+      .join("g")
+      .attr("class", "footprint-mark")
+      .attr("transform", function (d) {
+        var centroid = path.centroid(d);
+        return "translate(" + centroid[0] + "," + centroid[1] + ")";
+      });
+
+    footprintMarks.append("title").text(function (d) {
+      return d.properties.name;
+    });
+
+    [
+      { className: "footprint-left", x: -3.2, rotation: -18 },
+      { className: "footprint-right", x: 3.2, rotation: 18 }
+    ].forEach(function (foot) {
+      var print = footprintMarks
+        .append("g")
+        .attr("class", "footprint " + foot.className)
+        .attr("transform", "translate(" + foot.x + ",0) rotate(" + foot.rotation + ")");
+
+      print.append("ellipse").attr("cx", 0).attr("cy", 2.2).attr("rx", 2).attr("ry", 3.8);
+      print.append("circle").attr("cx", 0).attr("cy", -2.7).attr("r", 1.25);
+      print.append("circle").attr("cx", -1.45).attr("cy", -1.9).attr("r", 0.8);
+      print.append("circle").attr("cx", 1.45).attr("cy", -1.9).attr("r", 0.8);
+    });
   });
 })();
