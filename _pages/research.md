@@ -12,8 +12,8 @@ permalink: /research/
   <div class="research-card">
     <img src="{{ site.url }}{{ site.baseurl }}/images/research/{{ project.image }}" class="research-thumb" alt="{{ project.title }}">
     <div class="research-body">
-      <h4 class="research-title">{{ project.title }}</h4>
-      <p class="research-desc">
+      <h3 class="research-title">{{ project.title }}</h3>
+      <div class="research-desc">
         {{ project.desc }}
         
         {% if project.pub_link or project.talk_link %}
@@ -22,7 +22,7 @@ permalink: /research/
             {% if project.talk_link %}[<a href="{{ project.talk_link }}">🗣️ Talk</a>]{% endif %}
           </span>
         {% endif %}
-      </p>
+      </div>
     </div>
   </div>
   {% endfor %}
