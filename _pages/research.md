@@ -22,7 +22,7 @@ permalink: /research/
 {% if research.pi_name != empty %}
 <dl class="research-meta">
   <div>
-    <dt>PI</dt>
+    <dt>PI </dt>
     <dd>{% if research.pi_link != empty %}<a href="{{ research.pi_link }}">{{ research.pi_name }}</a>{% else %}{{ research.pi_name }}{% endif %}</dd>
   </div>
 </dl>
