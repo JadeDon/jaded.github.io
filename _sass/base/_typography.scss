@@ -1,12 +1,12 @@
 // =============================================================
-// Typography — Cormorant Garamond + Manrope
+// Typography — Source Serif + DM Sans
 // =============================================================
 // Fonts loaded via <link> in head.html.
-// Cormorant Garamond: high-contrast editorial serif for headings
-// Manrope: restrained sans-serif for body and interface text
+// Source Serif 4: elegant variable-weight serif for headings
+// DM Sans: clean geometric sans for body with personality
 
 body {
-  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, sans-serif;
   font-size: 1rem;
   line-height: 1.75;
@@ -14,7 +14,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Cormorant Garamond', 'Georgia', 'Times New Roman', serif;
+  font-family: 'Source Serif 4', 'Georgia', 'Times New Roman', serif;
   font-weight: 700;
   letter-spacing: -0.01em;
   color: var(--text-primary);
