@@ -37,3 +37,13 @@
     }
   }
 }
+
+// full inner width instead of inheriting the article-level reading measure.
+.card-academic,
+.section-card {
+  p,
+  li {
+    max-width: none;
+  }
+}
+
