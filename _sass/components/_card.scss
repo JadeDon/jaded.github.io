@@ -22,20 +22,12 @@
 }
 
 .section-card {
-  background-color: var(--bg-card);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-xl);
-  padding: var(--space-8);
-  margin-top: var(--space-6);
-  margin-bottom: var(--space-6);
-  box-shadow: var(--shadow-sm);
-  
-  ol, ul{
+ol, ul{
     padding-left: var(--space-8);
     margin-bottom: var(--space-6);
   }
 
-  li{
+li{
     padding-left: var(--space-8);
     margin-bottom: var(--space-6);
     line-height:1.6;
