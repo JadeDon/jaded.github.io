@@ -15,7 +15,7 @@ permalink: /research/
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/{{ research.image }}" class="research-thumb" alt="{{ research.title }}">
 </a>
 <div class="research-body">
-<h4 class="research-title"><a class="research-card-link" href="{{ '/research/' | append: research.slug | append: '/' | relative_url }}">{{ research.title }}</a></h4>
+<h4 class="research-title"><a class="research-card-link" href="{{ '/research/' | append: research.slug | append: '/' | relative_url }}">{{ research.title | escape | newline_to_br }}</a></h4>
 {% if research.date != empty or research.category != empty %}
 <p class="research-date">{% if research.date != empty %}{{ research.date }}{% endif %}{% if research.date != empty and research.category != empty %} <span aria-hidden="true">·</span> {% endif %}{% if research.category != empty %}{{ research.category }}{% endif %}</p>
 {% endif %}

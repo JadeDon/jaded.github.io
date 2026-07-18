@@ -8,7 +8,7 @@ layout: default
 
 <article class="fade-in-section" itemscope itemtype="http://schema.org/ScholarlyArticle">
   <a class="project-back" href="{{ '/research/' | relative_url }}">← All research</a>
-  <h2 itemprop="name headline">{{ project.title | default: page.title | escape }}</h2>
+  <h2 itemprop="name headline">{{ project.title | default: page.title | escape | newline_to_br }}</h2>
 
   <div class="text-muted project-details" style="font-size: 0.875rem;">
     {% if project.date != empty %}<span itemprop="datePublished">{{ project.date }}</span>{% endif %}{% if project.date != empty and project.category != empty %} &middot; {% endif %}{% if project.category != empty %}<span>{{ project.category }}</span>{% endif %}
