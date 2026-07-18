@@ -8,8 +8,6 @@
   institution_name: "University of Missouri-Columbia, US"
   institution_link: "https://inp.missouri.edu/"
   desc: "Reanalyzing Functional Connectivity in the Default Mode Network: Effects of Beta-Adrenergic Antagonism in Autism Spectrum Disorder. Executing localized spatial preprocessing and voxel-wise statistical modeling in SPM, while leveraging Python’s Nilearn library for multivariate functional connectivity analysis."
-  pub_link: "/publications/#pub-asd-connectivity"
-  talk_link: "/talks/#talk-mizzou-2026"
 
 - title: "Social Communication in ASD"
   slug: "social-communication-asd"
@@ -24,6 +22,7 @@
   institution_name: "University of Missouri-Columbia, US"
   institution_link: "https://inp.missouri.edu/"
   desc: "Assessing Social Conversation in Autism Spectrum Disorder Through Lexical and Syntactic Pipeline Analysis​."
+  talk_link: "/talks/#dang2026project1"
 
 - title: "Cognitive Control"
   slug: "cognitive-control"
@@ -71,4 +70,6 @@
   lab_link: ""
   institution_name: "Xi'an Jiaotong University, China"
   institution_link: "https://sfs.xjtu.edu.cn/en/"
-  desc: "BA work on effect of timing of the model text on alignment in the iterative continuation translation task."
+  desc: "Effect of timing of the model text on alignment in the iterative continuation translation task."
+  pub_link: "/publications/#dang2023effect"
+  talk_link: "/talks/#dang2023effect"
