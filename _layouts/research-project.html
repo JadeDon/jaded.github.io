@@ -3,6 +3,8 @@ layout: default
 ---
 
 {% assign project = site.data.research | where: "slug", page.research_slug | first %}
+{% assign lab_name = project.lab_name | default: "" | strip %}
+{% assign institution_name = project.institution_name | default: "" | strip %}
 
 <article class="fade-in-section" itemscope itemtype="http://schema.org/ScholarlyArticle">
   <a class="project-back" href="{{ '/research/' | relative_url }}">← All research</a>
@@ -12,7 +14,7 @@ layout: default
     {% if project.date != empty %}<span itemprop="datePublished">{{ project.date }}</span>{% endif %}{% if project.date != empty and project.category != empty %} &middot; {% endif %}{% if project.category != empty %}<span>{{ project.category }}</span>{% endif %}
     {% if project.pi_name != empty %}<br>PI: {% if project.pi_link != empty %}<a class="project-external-link" href="{{ project.pi_link }}">{{ project.pi_name }}</a>{% else %}{{ project.pi_name }}{% endif %}{% endif %}
     {% if project.mentors and project.mentors.size > 0 %}<br> Mentor(s): {% for mentor in project.mentors %}{% if mentor.link != empty %}<a class="project-external-link" href="{{ mentor.link }}">{{ mentor.name }}</a>{% else %}{{ mentor.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
-    {% if project.lab_name != empty %}<br>{% if project.lab_link != empty %}<a class="project-external-link" href="{{ project.lab_link }}">{{ project.lab_name }}</a>{% else %}{{ project.lab_name }}{% endif %}{% if project.institution_name != empty %}, {% if project.institution_link != empty %}<a class="project-external-link" href="{{ project.institution_link }}">{{ project.institution_name }}</a>{% else %}{{ project.institution_name }}{% endif %}{% endif %}{% elsif project.institution_name != empty %}<br>{% if project.institution_link != empty %}<a class="project-external-link" href="{{ project.institution_link }}">{{ project.institution_name }}</a>{% else %}{{ project.institution_name }}{% endif %}{% endif %}
+    {% if lab_name != "" %}<br>{% if project.lab_link != empty %}<a class="project-external-link" href="{{ project.lab_link }}">{{ lab_name }}</a>{% else %}{{ lab_name }}{% endif %}{% if institution_name != "" %}, {% if project.institution_link != empty %}<a class="project-external-link" href="{{ project.institution_link }}">{{ institution_name }}</a>{% else %}{{ institution_name }}{% endif %}{% endif %}{% elsif institution_name != "" %}<br>{% if project.institution_link != empty %}<a class="project-external-link" href="{{ project.institution_link }}">{{ institution_name }}</a>{% else %}{{ institution_name }}{% endif %}{% endif %}
   </div>
 
   {% if project.image != empty %}<img class="project-image" src="{{ '/images/research/' | append: project.image | relative_url }}" alt="{{ project.title }}">{% endif %}
