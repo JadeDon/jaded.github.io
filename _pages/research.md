@@ -26,7 +26,7 @@ permalink: /research/
 </dl>
 {% endif %}
 <p class="research-desc">{{ research.desc }}</p>
-<a class="research-link" href="{{ '/research/' | append: research.slug | append: '/' | relative_url }}">View<span aria-hidden="true">→</span></a>
+
 </div>
 </article>
 {% endfor %}
