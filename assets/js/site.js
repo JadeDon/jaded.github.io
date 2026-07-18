@@ -23,6 +23,10 @@
     if (url.origin !== window.location.origin) {
       link.setAttribute('target', '_blank');
       link.setAttribute('rel', 'noopener noreferrer');
+
+      if (link.closest('.research-grid, article[itemscope]')) {
+        link.classList.add('research-external-link');
+      }
     }
   });
 

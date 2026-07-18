@@ -8,6 +8,16 @@
   gap: var(--space-6);
 }
 
+.research-external-link {
+  display: inline-block;
+  color: var(--text-muted) !important;
+  text-decoration: none !important;
+
+  &:hover {
+    color: var(--accent) !important;
+  }
+}
+
 .research-card {
   display: block;
   background: linear-gradient(
