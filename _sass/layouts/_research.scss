@@ -157,6 +157,22 @@
   }
 }
 
+.project-details a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  transition: color var(--transition-fast), text-decoration-color var(--transition-fast);
+
+  &:hover,
+  &:focus-visible {
+    color: var(--accent-hover);
+    text-decoration-color: currentColor;
+  }
+}
+
 .project-content {
   max-width: 68ch;
 
