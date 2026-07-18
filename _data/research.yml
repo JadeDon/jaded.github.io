@@ -32,7 +32,7 @@
   image: "dyslexia.png"
   date: "2022"
   category: "Behaviour"
-    supervisor_name: "Zebo Xu"
+  supervisor_name: "Zebo Xu"
   supervisor_link: "https://scholar.google.com/citations?user=bW0hO_IAAAAJ&hl=zh-CN"
   desc: "Coordinated and executed behavioural data collection, leveraging PsychoPy and OpenHandWrite to precisely quantify spelling accuracy and latency markers in developmental populations, culminating in a stroke-level large-scale database of Chinese character handwriting."
 
