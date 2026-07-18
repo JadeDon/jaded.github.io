@@ -38,12 +38,13 @@
   }
 }
 
+// Cards already provide their own visual boundary, so let their copy use the
 // full inner width instead of inheriting the article-level reading measure.
 .card-academic,
 .section-card {
   p,
   li {
-    max-width: 100%;
+    max-width: none;
   }
 }
 
