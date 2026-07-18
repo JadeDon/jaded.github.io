@@ -6,6 +6,26 @@
 (function () {
   'use strict';
 
+  // ----- External Links -----
+
+  // Keep visitors on the site when they follow a link to another domain.
+  document.querySelectorAll('a[href]').forEach(function (link) {
+    var href = link.getAttribute('href');
+    if (!href || href.charAt(0) === '#' || /^(mailto:|tel:|javascript:)/i.test(href)) return;
+
+    var url;
+    try {
+      url = new URL(href, window.location.href);
+    } catch (error) {
+      return;
+    }
+
+    if (url.origin !== window.location.origin) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    }
+  });
+
   // ----- Dark Mode Toggle -----
 
   var toggle = document.getElementById('darkModeToggle');

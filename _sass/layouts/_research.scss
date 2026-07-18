@@ -71,8 +71,8 @@
 
     div {
       display: grid;
-      grid-template-columns: 5.5rem 1fr;
-      gap: var(--space-2);
+      grid-template-columns: max-content 1fr;
+      gap: var(--space-1);
     }
 
     dt {
