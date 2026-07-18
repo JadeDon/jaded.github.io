@@ -29,6 +29,17 @@
   margin-top: var(--space-6);
   margin-bottom: var(--space-6);
   box-shadow: var(--shadow-sm);
+  
+  ol, ul{
+    padding-left: var(--space-8);
+    margin-bottom: var(--space-6);
+  }
+
+  li{
+    padding-left: var(--space-8);
+    margin-bottom: var(--space-6);
+    line-height:1.6;
+  }
 
   h3, h4 {
     margin-top: 0;
