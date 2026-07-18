@@ -3,7 +3,7 @@
   image: "fc.png"
   date: "2026"
   category: "fMRI"
-  supervisor: "<a href="https://medicine.missouri.edu/faculty/brad-ferguson-ma-phd">Dr. Brad Ferguson</a>"
+  supervisor: '<a href="https://medicine.missouri.edu/faculty/brad-ferguson-ma-phd">Dr. Brad Ferguson</a>'
   desc: "Reanalyzing Functional Connectivity in the Default Mode Network: Effects of Beta-Adrenergic Antagonism in Autism Spectrum Disorder. Executing localized spatial preprocessing and voxel-wise statistical modeling in SPM, while leveraging Python’s Nilearn library for multivariate functional connectivity analysis."
   pub_link: "/publications/#pub-asd-connectivity"
   talk_link: "/talks/#talk-mizzou-2026"
@@ -13,7 +13,7 @@
   image: "jade2026assessing.png"
   date: "2026"
   category: "Speech Language Pathology"
-  supervisor: "<a href="https://medicine.missouri.edu/faculty/brad-ferguson-ma-phd">Dr. Brad Ferguson</a>"
+  supervisor: '<a href="https://medicine.missouri.edu/faculty/brad-ferguson-ma-phd">Dr. Brad Ferguson</a>'
   desc: "Assessing Social Conversation in Autism Spectrum Disorder Through Lexical and Syntactic Pipeline Analysis​."
 
 - title: "Cognitive Control"
@@ -21,7 +21,7 @@
   image: "eeg.png"
   date: "2023"
   category: "EEG"
-  supervisor: "<a href="  https://edwebprofiles.ed.ac.uk/profile/nicolas-chevalier">Dr. Nicolas Chevalier</a>"
+  supervisor: '<a href="https://edwebprofiles.ed.ac.uk/profile/nicolas-chevalier">Dr. Nicolas Chevalier</a>'
   desc: "Spearheaded the acquisition of EEG and behavioral datasets from a developmental cohort (children aged 4–8) to evaluate cognitive control dynamics."
 
 - title: "Dyslexia"
@@ -29,7 +29,7 @@
   image: "dyslexia.png"
   date: "2022"
   category: "Behaviour"
-  supervisor: "<a href="https://scholar.google.com/citations?user=bW0hO_IAAAAJ&hl=zh-CN">Zebo Xu</a>"
+  supervisor: '<a href="https://scholar.google.com/citations?user=bW0hO_IAAAAJ&hl=zh-CN">Zebo Xu</a>'
   desc: "Coordinated and executed behavioural data collection, leveraging PsychoPy and OpenHandWrite to precisely quantify spelling accuracy and latency markers in developmental populations, culminating in a stroke-level large-scale database of Chinese character handwriting."
 
 - title: "Continuation Translation Task"
@@ -37,5 +37,5 @@
   image: "jade2023effect.png"
   date: "2022"
   category: "Computational Linguistics"
-  supervisor: "<a href="https://person.zju.edu.cn/0021392">Dr. Min Wang</a>"
+  supervisor: '<a href="https://person.zju.edu.cn/0021392">Dr. Min Wang</a>'
   desc: "Effect of Timing of the Model Text on Alignment in the Iterative Continuation Translation Task."
