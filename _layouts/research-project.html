@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+{% assign project = site.data.research | where: "slug", page.research_slug | first %}
+
+<article class="project-page fade-in-section">
+  <a class="project-back" href="{{ '/research/' | relative_url }}">← All research</a>
+
+  <header class="project-header">
+    <p class="project-eyebrow">Research project{% if project.category != empty %} · {{ project.category }}{% endif %}</p>
+    <h1>{{ project.title }}</h1>
+    {% if project.date != empty %}<p class="project-date">{{ project.date }}</p>{% endif %}
+  </header>
+
+  <img class="project-image" src="{{ '/images/research/' | append: project.image | relative_url }}" alt="{{ project.title }}">
+
+  <div class="project-content">
+    <h2>Overview</h2>
+    <p>{{ project.desc }}</p>
+
+    {% if project.supervisor != empty %}
+    <dl class="project-meta">
+      <div><dt>Supervisor</dt><dd>{{ project.supervisor }}</dd></div>
+    </dl>
+    {% endif %}
+
+    {{ content }}
+
+    <div class="project-actions">
+      {% if project.pub_link %}<a class="btn-pill btn-website" href="{{ project.pub_link | relative_url }}">Related publication</a>{% endif %}
+      {% if project.talk_link %}<a class="btn-pill btn-abstract" href="{{ project.talk_link | relative_url }}">Related talk</a>{% endif %}
+    </div>
+  </div>
+</article>

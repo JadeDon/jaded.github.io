@@ -1,4 +1,5 @@
 - title: "fMRI Functional Connectivity"
+  slug: "fmri-functional-connectivity"
   image: "fc.png"
   date: "2023"
   category: "fMRI"
@@ -8,6 +9,7 @@
   talk_link: "/talks/#talk-mizzou-2026"
 
 - title: "Social Communication in ASD"
+  slug: "social-communication-asd"
   image: "jade2026assessing.png"
   date: ""
   category: ""
@@ -15,6 +17,7 @@
   desc: "Assessing Social Conversation in Autism Spectrum Disorder Through Lexical and Syntactic Pipeline Analysis​."
 
 - title: "Spatial cognition and language in ASD"
+  slug: "spatial-cognition-language-asd"
   image: "jade2025spatial.png"
   date: ""
   category: ""
@@ -22,6 +25,7 @@
   desc: "Analyzed a diverse battery of behavioral measures to evaluate the selective dissociation between structural language abilities and visuospatial processing in autistic population, and to identify cognitive markers that best differentiate autistic individuals from neurotypical peers. Devised a standardized set of phonotactically legal nonword linguistic stimuli to validate novel experimental paradigms for cognitive dissociation."
 
 - title: "Cognitive Control"
+  slug: "cognitive-control"
   image: "eeg.png"
   date: ""
   category: ""
@@ -29,6 +33,7 @@
   desc: "Spearheaded the acquisition of EEG and behavioral datasets from a developmental cohort (children aged 4–8) to evaluate cognitive control dynamics."
 
 - title: "Dyslexia"
+  slug: "dyslexia"
   image: "dyslexia.png"
   date: ""
   category: ""
@@ -36,9 +41,9 @@
   desc: "Coordinated and executed behavioural data collection, leveraging PsychoPy and OpenHandWrite to precisely quantify spelling accuracy and latency markers in developmental populations, culminating in a stroke-level large-scale database of Chinese character handwriting."
 
 - title: "Continuation Translation Task"
+  slug: "continuation-translation-task"
   image: "jade2023effect.png"
   date: ""
   category: ""
   supervisor: ""
   desc: "Effect of Timing of the Model Text on Alignment in the Iterative Continuation Translation Task."
-
