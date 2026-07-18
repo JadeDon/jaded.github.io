@@ -5,11 +5,6 @@
   category: "fMRI"
   pi_name: "Dr. Brad Ferguson"
   pi_link: "https://medicine.missouri.edu/faculty/brad-ferguson-ma-phd"
-  mentors:
-  - name: ""
-    link: ""
-  lab_name: ""
-  lab_link: ""
   institution_name: "University of Missouri-Columbia, US"
   institution_link: "https://inp.missouri.edu/"
   desc: "Reanalyzing Functional Connectivity in the Default Mode Network: Effects of Beta-Adrenergic Antagonism in Autism Spectrum Disorder. Executing localized spatial preprocessing and voxel-wise statistical modeling in SPM, while leveraging Python’s Nilearn library for multivariate functional connectivity analysis."
@@ -26,8 +21,6 @@
   mentors:
   - name: "Dr. Fang Wang"
     link: "https://engineering.missouri.edu/faculty/fang-wang/"
-  lab_name: ""
-  lab_link: ""
   institution_name: "University of Missouri-Columbia, US"
   institution_link: "https://inp.missouri.edu/"
   desc: "Assessing Social Conversation in Autism Spectrum Disorder Through Lexical and Syntactic Pipeline Analysis​."
@@ -41,9 +34,6 @@
   pi_link: "https://edwebprofiles.ed.ac.uk/profile/nicolas-chevalier"
   mentors:
   - name: "Simon Neff"
-    link: ""
-  lab_name: ""
-  lab_link: ""
   institution_name: "University of Edinburgh, UK"
   institution_link: "https://ppls.ed.ac.uk/"
   desc: "Spearheaded the acquisition of EEG and behavioral datasets from a developmental cohort (children aged 4–8) to evaluate cognitive control dynamics."
@@ -61,7 +51,7 @@
   lab_name: "Language Processing Lab"
   lab_link: "https://cuhklpl.github.io/index.html"
   institution_name: "The Chinese University of Hong Kong"
-  institution_link: ""
+  institution_link: "https://ling.cuhk.edu.hk/"
   desc: "Coordinated and executed behavioural data collection, leveraging PsychoPy and OpenHandWrite to precisely quantify spelling accuracy and latency markers in developmental populations, culminating in a stroke-level large-scale database of Chinese character handwriting."
 
 - title: "Continuation Translation Task \n读后续译"
@@ -72,7 +62,7 @@
   pi_name: "Dr. Min Wang"
   pi_link: "https://person.zju.edu.cn/0021392"
   mentors:
-  - name: "Dr.Huiyang Shen"
+  - name: "Dr. Huiyang Shen"
     link: "https://www.wyxy.snnu.edu.cn/info/1180/14977.htm"
   - name: "Dr. Qiao Gan"
     link: "https://scholar.google.com/citations?user=ViNLbXUAAAAJ&hl=en"

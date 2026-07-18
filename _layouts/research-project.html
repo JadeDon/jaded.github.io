@@ -11,7 +11,7 @@ layout: default
   <div class="text-muted project-details" style="font-size: 0.875rem;">
     {% if project.date != empty %}<span itemprop="datePublished">{{ project.date }}</span>{% endif %}{% if project.date != empty and project.category != empty %} &middot; {% endif %}{% if project.category != empty %}<span>{{ project.category }}</span>{% endif %}
     {% if project.pi_name != empty %}<br>PI: {% if project.pi_link != empty %}<a class="project-external-link" href="{{ project.pi_link }}">{{ project.pi_name }}</a>{% else %}{{ project.pi_name }}{% endif %}{% endif %}
-    {% if project.mentors and project.mentors.size > 0 %}<br>Graduate Student Mentors: {% for mentor in project.mentors %}{% if mentor.link != empty %}<a class="project-external-link" href="{{ mentor.link }}">{{ mentor.name }}</a>{% else %}{{ mentor.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
+    {% if project.mentors and project.mentors.size > 0 %}<br> Mentor(s): {% for mentor in project.mentors %}{% if mentor.link != empty %}<a class="project-external-link" href="{{ mentor.link }}">{{ mentor.name }}</a>{% else %}{{ mentor.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
     {% if project.lab_name != empty %}<br>{% if project.lab_link != empty %}<a class="project-external-link" href="{{ project.lab_link }}">{{ project.lab_name }}</a>{% else %}{{ project.lab_name }}{% endif %}{% endif %}{% if project.institution_name != empty %}{% if project.lab_name != empty %}, {% endif %}{% if project.institution_link != empty %}<a class="project-external-link" href="{{ project.institution_link }}">{{ project.institution_name }}</a>{% else %}{{ project.institution_name }}{% endif %}{% endif %}
   </div>
 
