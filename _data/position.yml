@@ -4,7 +4,7 @@
 
 # EXAMPLE -- replace or delete
 - education:
-    - "(expected 2027) M.Sc. Interdisciplinary Neuroscience, University of Missouri-Columbia, US"
+    - "(expected 2030) Ph.D. Interdisciplinary Neuroscience, University of Missouri-Columbia, US"
     - "(2025) Pg.Dip. Psychology of Language, University of Edinburgh, UK"
     - "(2022) B.A. English Language and Literature, Xi'an Jiaotong University, China"
 - educationshort:
