@@ -11,20 +11,6 @@ permalink: /footprints/
   The word for world is forest.         — Ursula K. Le Guin, <cite>1972</cite>
 </p>
 
-<blockquote style="font-style: italic; color: #666; margin-bottom: 5px;">
-  <p style="margin-bottom: 5px;">The word for world is forest.</p>
-  <div style="text-align: right; font-style: normal;">
-    — Ursula K. Le Guin, <cite>1972</cite>
-  </div>
-</blockquote>
-
-<div style="font-style: italic; color: #666; margin-bottom: 5px;">
-  <p style="margin-bottom: 5px;">The word for world is forest.</p>
-  <p style="text-align: right; font-style: normal;">
-    — Ursula K. Le Guin, <cite>1972</cite>
-  </p>
-</div>
-
 <div class="footprints-map-wrap" markdown="0">
 <div id="footprints-map" data-world="{{ site.url }}{{ site.baseurl }}/assets/footprint/countries-110m.json" data-footprints="{{ site.url }}{{ site.baseurl }}/assets/footprint/footprints.json"></div>
 <div class="footprints-legend">
