@@ -32,17 +32,6 @@
   .country.hovered {
     fill: var(--accent-hover);
   }
-
-  .footprint-marks {
-    pointer-events: none;
-  }
-
-  .footprint {
-    fill: var(--footprint-mark);
-    stroke: var(--bg-card);
-    stroke-width: 0.35;
-    paint-order: stroke;
-  }
 }
 
 .footprints-tooltip {
@@ -93,14 +82,4 @@
 
 .footprints-legend .legend-swatch.visited {
   background-color: var(--accent);
-
-  &::after {
-    content: "••";
-    display: block;
-    color: var(--footprint-mark);
-    font-size: 0.625rem;
-    letter-spacing: -0.2em;
-    line-height: 0.75rem;
-    text-align: center;
-  }
 }
