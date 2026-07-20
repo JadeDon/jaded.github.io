@@ -26,20 +26,10 @@
   var projection = d3.geoNaturalEarth1().fitSize([width, height], { type: "Sphere" });
   var path = d3.geoPath(projection);
 
-  // Display-name overrides: the base map's name is replaced with the
-  // preferred label everywhere (tooltip text and footprints.json lookups).
-  var nameOverrides = {
-    Taiwan: "Taiwan Region"
-  };
-
   Promise.all([d3.json(worldUrl), d3.json(footprintsUrl)]).then(function (results) {
     var world = results[0];
     var footprints = results[1];
     var countries = topojson.feature(world, world.objects.countries).features;
-
-    countries.forEach(function (d) {
-      d.properties.name = nameOverrides[d.properties.name] || d.properties.name;
-    });
 
     svg
       .selectAll("path.country")
