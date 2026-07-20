@@ -7,7 +7,7 @@
   pi_link: "https://medicine.missouri.edu/faculty/brad-ferguson-ma-phd"
   institution_name: "University of Missouri-Columbia, US"
   institution_link: "https://inp.missouri.edu/"
-  desc: "Reanalyzing Functional Connectivity in the Default Mode Network: Effects of Beta-Adrenergic Antagonism in Autism Spectrum Disorder. Executing localized spatial preprocessing and voxel-wise statistical modeling in SPM, while leveraging Python’s Nilearn library for multivariate functional connectivity analysis."
+  desc: "Reanalyzing Functional Connectivity in the Default Mode Network: Effects of Beta-Adrenergic Antagonism in Autism Spectrum Disorder."
 
 - title: "Social Communication in ASD"
   slug: "social-communication-asd"
