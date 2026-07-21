@@ -6,7 +6,7 @@ categories: "DearDiary"
 ---
 Scrolling through SPM slices always reminds me of Arcimboldo. Below are a few artists I think would have been imaging scientists in a parallel universe:
 
-### Giuseppe Arcimboldo
+## Giuseppe Arcimboldo
 
 <div align="center">
   <div style="display: inline-block; width: 40%;">
@@ -29,7 +29,7 @@ Scrolling through SPM slices always reminds me of Arcimboldo. Below are a few ar
 
 Arcimboldo's works are used by some psychologists and neuroscientists to determine the presence of lesions in the hemispheres of the brain that recognise global and local images and objects.
 
-### Salvador Dali
+## Salvador Dali
 
   <div style="display: inline-block; width: 48%; margin: 5px 0; vertical-align: top;">
     <img src="/images/posts/240329/lincoln.jpg" width="100%" /><br>
