@@ -33,7 +33,7 @@ Arcimboldo's works are used by some psychologists and neuroscientists to determi
 
   <div style="display: inline-block; width: 48%; margin: 5px 0; vertical-align: top;">
     <img src="/images/posts/240329/lincoln.jpg" width="100%" /><br>
-    <small>Gala Contemplating the Mediterranean Sea, 1976<br>The Dali Museum, St Petersburg, US</small>
+    <small>Gala Contemplating the Mediterranean Sea, 1976<br>Dali Museum, St Petersburg, US</small>
   </div>
 
 
