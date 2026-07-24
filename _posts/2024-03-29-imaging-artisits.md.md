@@ -4,7 +4,7 @@ title: "Neuroimaging Artists."
 date: 2024-03-29
 categories: "DearDiary"
 ---
-Scrolling through SPM slices always reminds me of Arcimboldo. Below are a few artists I think would have been imaging scientists in a parallel universe:
+Scrolling through SPM slices always reminds me of Arcimboldo. Below are a few artists I think would have been neuroimaging scientists in a parallel universe:
 
 ## Giuseppe Arcimboldo
 
