@@ -8,21 +8,21 @@ Scrolling through SPM slices always reminds me of Arcimboldo. Below are a few ar
 
 ## Giuseppe Arcimboldo
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin: 1.5rem 0;">
+<div markdown="0" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin: 1.5rem 0;">
   <figure style="margin: 0; text-align: center;">
-    <img src="{{ '/images/posts/240329/Arcimboldo1.jpg' | relative_url }}" alt="Spring by Giuseppe Arcimboldo" loading="eager" style="display: block; width: 100%; height: auto;">
+    <img src="{{ '/images/posts/240329/Arcimboldo1.jpg' | relative_url }}" alt="Spring by Giuseppe Arcimboldo" loading="eager" style="display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: contain;">
     <figcaption><small><em>Spring</em>, 1563<br>Real Academia de Bellas Artes de San Fernando, Madrid</small></figcaption>
   </figure>
   <figure style="margin: 0; text-align: center;">
-    <img src="{{ '/images/posts/240329/Arcimboldo2.jpg' | relative_url }}" alt="Summer by Giuseppe Arcimboldo" loading="eager" style="display: block; width: 100%; height: auto;">
+    <img src="{{ '/images/posts/240329/Arcimboldo2.jpg' | relative_url }}" alt="Summer by Giuseppe Arcimboldo" loading="eager" style="display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: contain;">
     <figcaption><small><em>Summer</em>, 1563<br>Kunsthistorisches Museum, Vienna</small></figcaption>
   </figure>
   <figure style="margin: 0; text-align: center;">
-    <img src="{{ '/images/posts/240329/Arcimboldo3.jpg' | relative_url }}" alt="Autumn by Giuseppe Arcimboldo" loading="eager" style="display: block; width: 100%; height: auto;">
+    <img src="{{ '/images/posts/240329/Arcimboldo3.jpg' | relative_url }}" alt="Autumn by Giuseppe Arcimboldo" loading="eager" style="display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: contain;">
     <figcaption><small><em>Autumn</em>, 1573<br>Musée du Louvre, Paris</small></figcaption>
   </figure>
   <figure style="margin: 0; text-align: center;">
-    <img src="{{ '/images/posts/240329/Arcimboldo4.jpg' | relative_url }}" alt="Winter by Giuseppe Arcimboldo" loading="eager" style="display: block; width: 100%; height: auto;">
+    <img src="{{ '/images/posts/240329/Arcimboldo4.jpg' | relative_url }}" alt="Winter by Giuseppe Arcimboldo" loading="eager" style="display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: contain;">
     <figcaption><small><em>Winter</em>, 1563<br>Kunsthistorisches Museum, Vienna</small></figcaption>
   </figure>
 </div>
@@ -31,10 +31,12 @@ Arcimboldo's works are used by some psychologists and neuroscientists to determi
 
 ## Salvador Dali
 
-<figure style="max-width: 42rem; margin: 1.5rem auto; text-align: center;">
-  <img src="{{ '/images/posts/240329/lincoln.jpg' | relative_url }}" alt="Gala Contemplating the Mediterranean Sea by Salvador Dalí" loading="lazy" style="display: block; width: 100%; height: auto;">
-  <figcaption><small><em>Gala Contemplating the Mediterranean Sea</em>, 1976<br>Dalí Museum, St. Petersburg, US</small></figcaption>
-</figure>
+<div markdown="0" style="max-width: 22rem; margin: 1.5rem auto; text-align: center;">
+  <figure style="margin: 0;">
+    <img src="{{ '/images/posts/240329/lincoln.jpg' | relative_url }}" alt="Gala Contemplating the Mediterranean Sea by Salvador Dalí" loading="eager" style="display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: contain;">
+    <figcaption><small><em>Gala Contemplating the Mediterranean Sea</em>, 1976<br>Dalí Museum, St. Petersburg, US</small></figcaption>
+  </figure>
+</div>
 
 <div style="text-align: left;">
   <p>This painting was inspired by a Scientific American article Dali read about visual perception, which investigated the minimum number of pixels needed to describe a unique human face.</p>
