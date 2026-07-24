@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Imaging Artists."
+title: "Neuroimaging Artists."
 date: 2024-03-29
 categories: "DearDiary"
 ---
@@ -8,33 +8,33 @@ Scrolling through SPM slices always reminds me of Arcimboldo. Below are a few ar
 
 ## Giuseppe Arcimboldo
 
-<div align="center">
-  <div style="display: inline-block; width: 40%;">
-    <img src="/images/posts/240329/Arcimboldo1.jpg" width="100%" /><br>
-    <small>Spring, 1563<br>Real Academia de Bellas Artes de San Fernando, Madrid</small>
-  </div>
-  <div style="display: inline-block; width: 48%;">
-    <img src="/images/posts/240329/Arcimboldo2.jpg" width="100%" /><br>
-    <small>Summer, 1563<br>Kunsthistorisches Museum, Vienna</small>
-  </div>
-  <div style="display: inline-block; width: 48%;">
-    <img src="/images/posts/240329/Arcimboldo3.jpg" width="100%" /><br>
-    <small>Autumn, 1573<br>Musée du Louvre, Paris</small>
-  </div>
-  <div style="display: inline-block; width: 48%;">
-    <img src="/images/posts/240329/Arcimboldo4.jpg" width="100%" /><br>
-    <small>Winter, 1563<br>Kunsthistorisches Museum, Vienna</small>
-  </div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin: 1.5rem 0;">
+  <figure style="margin: 0; text-align: center;">
+    <img src="{{ '/images/posts/240329/Arcimboldo1.jpg' | relative_url }}" alt="Spring by Giuseppe Arcimboldo" loading="lazy" style="display: block; width: 100%; height: auto;">
+    <figcaption><small><em>Spring</em>, 1563<br>Real Academia de Bellas Artes de San Fernando, Madrid</small></figcaption>
+  </figure>
+  <figure style="margin: 0; text-align: center;">
+    <img src="{{ '/images/posts/240329/Arcimboldo2.jpg' | relative_url }}" alt="Summer by Giuseppe Arcimboldo" loading="lazy" style="display: block; width: 100%; height: auto;">
+    <figcaption><small><em>Summer</em>, 1563<br>Kunsthistorisches Museum, Vienna</small></figcaption>
+  </figure>
+  <figure style="margin: 0; text-align: center;">
+    <img src="{{ '/images/posts/240329/Arcimboldo3.jpg' | relative_url }}" alt="Autumn by Giuseppe Arcimboldo" loading="lazy" style="display: block; width: 100%; height: auto;">
+    <figcaption><small><em>Autumn</em>, 1573<br>Musée du Louvre, Paris</small></figcaption>
+  </figure>
+  <figure style="margin: 0; text-align: center;">
+    <img src="{{ '/images/posts/240329/Arcimboldo4.jpg' | relative_url }}" alt="Winter by Giuseppe Arcimboldo" loading="lazy" style="display: block; width: 100%; height: auto;">
+    <figcaption><small><em>Winter</em>, 1563<br>Kunsthistorisches Museum, Vienna</small></figcaption>
+  </figure>
 </div>
 
 Arcimboldo's works are used by some psychologists and neuroscientists to determine the presence of lesions in the hemispheres of the brain that recognise global and local images and objects.
 
 ## Salvador Dali
 
-  <div style="display: inline-block; width: 48%; margin: 5px 0; vertical-align: top;">
-    <img src="/images/posts/240329/lincoln.jpg" width="100%" /><br>
-    <small>Gala Contemplating the Mediterranean Sea, 1976<br>Dali Museum, St Petersburg, US</small>
-  </div>
+<figure style="max-width: 42rem; margin: 1.5rem auto; text-align: center;">
+  <img src="{{ '/images/posts/240329/lincoln.jpg' | relative_url }}" alt="Gala Contemplating the Mediterranean Sea by Salvador Dalí" loading="lazy" style="display: block; width: 100%; height: auto;">
+  <figcaption><small><em>Gala Contemplating the Mediterranean Sea</em>, 1976<br>Dalí Museum, St. Petersburg, US</small></figcaption>
+</figure>
 
 
 This painting was inspired by a Scientific American article Dali read about visual perception, which investigated the minimum number of pixels needed to describe a unique human face. 
