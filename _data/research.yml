@@ -51,7 +51,7 @@
   lab_link: "https://cuhklpl.github.io/index.html"
   institution_name: "The Chinese University of Hong Kong"
   institution_link: "https://ling.cuhk.edu.hk/"
-  desc: "Coordinated and executed behavioural data collection, leveraging PsychoPy and OpenHandWrite to precisely quantify spelling accuracy and latency markers in developmental populations, culminating in a stroke-level large-scale database of Chinese character handwriting."
+  desc: "A stroke-level large-scale database of Chinese character handwriting and the OpenHandWrite_Toolbox for handwriting research."
 
 - title: |-
     Continuation Translation Task
