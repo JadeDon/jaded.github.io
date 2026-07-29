@@ -9,7 +9,7 @@ layout: default
 {% assign project_pi_link = project.pi_link | default: "" | strip %}
 
 <article class="fade-in-section" itemscope itemtype="http://schema.org/ScholarlyArticle">
-  <a class="project-back" href="{{ '/research/' | relative_url }}">← All research</a>
+  <a class="project-back" href="{{ '/research/' | relative_url }}" style="display: inline-block; margin-bottom: 0.25rem;">← All research</a>
   <h2 itemprop="name headline">{{ project.title | default: page.title | escape | newline_to_br }}</h2>
 
   <div class="text-muted project-details" style="font-size: 0.875rem;">
@@ -25,6 +25,9 @@ layout: default
     <div class="project-actions">
       {% if project.pub_link %}<a class="btn-pill btn-website" href="{{ project.pub_link | relative_url }}">Related publication</a>{% endif %}
       {% if project.talk_link %}<a class="btn-pill btn-abstract" href="{{ project.talk_link | relative_url }}">Related talk</a>{% endif %}
+    </div>
+    <div style="margin-top: 1.5rem;">
+      <a class="project-back" href="{{ '/research/' | relative_url }}">← All research</a>
     </div>
   </div>
 </article>
