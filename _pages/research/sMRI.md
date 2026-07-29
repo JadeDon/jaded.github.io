@@ -1,5 +1,5 @@
 ---
-title: "Structural MRI research on Reading Dyslexia"
+title: "Structural Imaging in Reading Dyslexia"
 layout: research-project
 permalink: /research/sMRI/
 research_slug: sMRI
