@@ -26,4 +26,4 @@ Data do not speak for themselves and never have. Scientific theories are coarse-
 ### Reference
 1. Pickering, M. J., & Garrod, S. (2004). Toward a mechanistic psychology of dialogue. Behavioral and brain sciences, 27(2), 169-189.
 2. Wang, C. M. (2016). 以“续”促学[Learning by extension]. Modern Foreign Languages, 39(6), 784-793.
-3. Wang, M., Gan, Q., & Boland, J. (2021). L2 syntactic alignment in the reading-writing integrated continuation task: Evidence from Chinese EFL learners’ description of motion events. Chinese Journal of Applied Linguistics, 44(3), 292-313.
+3. Wang, M., Gan, Q., & Boland, J. E. (2022). Effect of interactive intensity on lexical alignment and L2 writing quality. System, 108, 102847.
