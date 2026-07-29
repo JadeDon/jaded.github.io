@@ -29,7 +29,7 @@ I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS
 
 <div class="banner-frame" markdown="0">
 <img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Voxel based morphometry" loading="lazy">
-<div class="banner-caption">Example of voxel based morphometry.
+<div class="banner-caption">Example of voxel based morphometry. Course slides from PSYL 11100 Brain Imaging in Cognitive Neuroscience, taught by <a href="https://edwebprofiles.ed.ac.uk/profile/edwardsilson">Dr. Edward Silson.
 </div>
 </div>
 
