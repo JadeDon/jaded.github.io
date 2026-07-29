@@ -22,7 +22,7 @@
   institution_name: "University of Missouri-Columbia, US"
   institution_link: "https://inp.missouri.edu/"
   desc: "Assessing social conversation in Autism Spectrum Disorder from a developmental cohort (children aged 8–17) through lexical and syntactic pipeline analysis​."
-  talk_link: "/talks/#dang2026project1"
+
 
 - title: "Spatial Cognition in ASD"
   slug: "spatial-cognition-language-asd"
@@ -32,7 +32,8 @@
   institution_name: "University of Missouri-Columbia, US"
   institution_link: "https://inp.missouri.edu/"
   desc: "Spatial cognition versus language: What best differentiates autistic and neurotypical individuals?"
-
+  talk_link: "/talks/#dang2026project1"
+  
 - title: "Structural Imaging in Reading Dyslexia"
   slug: "sMRI"
   image: "sMRI.png"
