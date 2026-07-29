@@ -16,7 +16,7 @@ Building on prior evidence linking adult phonological decoding, word decoding, a
 
 The results demonstrate that reading performance correlates with four distinct structural measures within the reading network—highlighting the contribution of total left CSA and left superior temporal gyrus CSA in particular—with childhood reading frequency partially mediating these brain-behaviour relationships. 
 
-Ultimately, this work offers foundational insights into the subtle, complex interplay between cognitive acquisition, environmental print exposure, and long-term cortical development across diverse socioeconomic backgrounds.
+This work offers foundational insights into the subtle, complex interplay between cognitive acquisition, environmental print exposure, and long-term cortical development across diverse socioeconomic backgrounds.
 
 ### Reflection
 Working on this longitudinal dyslexia dataset was a humbling yet transformative experience that reshaped my approach to cognitive neuroscience. This project taught me that compelling research requires an honest balance between conceptual novelty and computational feasibility.
