@@ -23,7 +23,7 @@ Unlike math or physical sciences where fundamental particles satisfy the princip
 
 Data do not speak for themselves and never have. Scientific theories are coarse-grained, simplified representations designed to make complex phenomena tractable. The validity of a model lies not in its ability to offer an absolute truth, but in its capacity to generate testable, falsifiable predictions that incrementally approximate reality.
 
-### Reference
+### References
 1. Pickering, M. J., & Garrod, S. (2004). Toward a mechanistic psychology of dialogue. Behavioral and brain sciences, 27(2), 169-189.
 2. Wang, C. M. (2016). 以“续”促学[Learning by extension]. Modern Foreign Languages, 39(6), 784-793.
 3. Wang, M., Gan, Q., & Boland, J. E. (2022). Effect of interactive intensity on lexical alignment and L2 writing quality. System, 108, 102847.
