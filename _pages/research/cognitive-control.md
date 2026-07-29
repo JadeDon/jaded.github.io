@@ -14,3 +14,6 @@ In adults, cognitive control disengagement with learning is evidenced by two cha
 Through this project, I gained hands-on experience collecting both behavioural and EEG data in paediatric populations (age 4-8).
 
 Discovering special techniques in cognitive neuroscience was a spark. I was mesmerised by how researchers could translate the inner workings of the human mind into brilliant, colourful brain maps, and I resolved then and there to become a cognitive neuroscientist.
+
+### Reference
+Huycke, P., Verbeke, P., Boehler, C. N., & Verguts, T. (2021). Theta and alpha power across fast and slow timescales in cognitive control. European Journal of Neuroscience, 54(2), 4581-4594.
