@@ -72,7 +72,7 @@
   desc: "A stroke-level large-scale database of Chinese character handwriting and the OpenHandWrite_Toolbox for handwriting research."
 
 - title: |-
-    Continuation Translation Task
+    Read-To-Translate
     读后续译
   slug: "continuation-translation-task"
   image: "jade2023effect.png"
