@@ -15,6 +15,9 @@ ta_experience:
     year: "2019"
 
 training:
+  - category: "Teaching"
+    courses:
+      - " Division of Biological Sciences Teaching Professional Development Workshop (University of Missouri-Columbia, 2026)"
   - category: "Neuroimaging & Experimental Methods"
     courses:
       - "IRB Protocol Training for Research Involving Vulnerable Populations (University of Missouri-Columbia, 2025)"
