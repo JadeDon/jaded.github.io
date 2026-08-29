@@ -15,9 +15,7 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Bayesian Statistics</a>
 </div>
 
-My goal is to become a cognitive neuroscientist. 
-
-My research passion lies at the intersection of cognitive neuroscience, neurodiversity, child development, and language processing.
+My research passion lies at the intersection of neuroimaging, neurodiversity, child development, and language processing.
 
 I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS, and research with neurodiverse people and kids, to shed light on the complex nature of processing in the human mind and brain.
 
@@ -33,6 +31,6 @@ I employ multiple techniques, including behavioural studies, EEG/ERPs, fMRI, TMS
 </div>
 
 
-I am currently a rising 2nd year PhD student in Neuroscience.
+I am currently in my 2nd year in Neuroscience at the University of Missouri.
 
-In the research offseason, you might spot me journaling, cooking, or backpacking with a camera.
+Outside the lab, you might find me journaling, cooking, practising archery, or backpacking around the world with a camera in hand.
