@@ -20,6 +20,8 @@ training:
       - " Division of Biological Sciences Teaching Professional Development Workshop (University of Missouri-Columbia, 2026)"
   - category: "Neuroimaging & Experimental Methods"
     courses:
+      - "OHBM & SEA-SIG Online Satellite Virtual Meeting (Organisation for Human Brain Mapping, 2026)"
+      - "FSL Course: Analysis of Functional, Structural, and Diffusion Brain Imaging (Self-Paced Training, University of Oxford, 2026)"
       - "IRB Protocol Training for Research Involving Vulnerable Populations (University of Missouri-Columbia, 2025)"
       - "CITI Social & Behavioural Research Certification (University of Missouri-Columbia, 2025)"
       - "MRI Safety and Operator Training (University of Missouri-Columbia, 2025)"
@@ -35,7 +37,7 @@ training:
       - "SPSS"
   - category: "Statistics & Programming"
     courses:
-      - "Foundations of Python Programming (Runestone, 2026)"
+      - "Foundations of Python Programming (Self-Paced Training, Runestone, 2026)"
       - "Bayesian Psychometrics"
       - "Bayesian Statistical Analyses and Stan (Summer School, University of Edinburgh, 2024)"
       - "Introduction to Bayesian Statistics"
